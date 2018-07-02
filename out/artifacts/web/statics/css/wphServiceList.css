@@ -1,0 +1,61 @@
+.wph-service-box {
+	width: 100%;
+}
+.wph-service-list {
+	padding: 0.9rem 0.3rem;
+}
+.service-img1 {
+	background: url("./../../statics/img/mui/wph-service-img1.png") no-repeat;
+}
+.service-img2 {
+	background: url("./../../statics/img/mui/wph-service-img2.png") no-repeat;
+}
+.service-img3 {
+	background: url("./../../statics/img/mui/wph-service-img3.png") no-repeat;
+}
+.service-img4 {
+	background: url("./../../statics/img/mui/wph-service-img4.png") no-repeat;
+}
+.service-img5 {
+	background: url("./../../statics/img/mui/wph-service-img5.png") no-repeat;
+}
+.service-img6 {
+	background: url("./../../statics/img/mui/wph-service-img6.png") no-repeat;
+}
+.service-img7 {
+	background: url("./../../statics/img/mui/wph-service-img7.png") no-repeat;
+}
+.service-img8 {
+	background: url("./../../statics/img/mui/wph-service-img8.png") no-repeat;
+}
+.service-img9 {
+	background: url("./../../statics/img/mui/wph-service-img9.png") no-repeat;
+}
+.wph-service-group {
+	text-align: center;
+	float: left;
+	width: 7rem;
+	height: 4.76rem;
+	border-radius: 0.4rem;
+	position: relative;
+	margin-bottom: 0.3rem;
+	margin-right: 0.3rem;
+	background-size: 100% 100%;
+	background-color: #bfbfbf;
+}
+.wph-service-list li:nth-of-type(even) {
+	margin-right: 0rem;
+}
+.wph-service-name {
+	letter-spacing: 0.04rem;
+	margin-top: 1.8rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	color: #ffffff;
+}
+.wph-service-name-english {
+	font-size: 0.45rem;
+	line-height: 0.6rem;
+	color: #ffffff;
+}

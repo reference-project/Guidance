@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>诊前说明</title>
+	<script src="./statics/js/jquery-3.2.1.js"></script>
+	<script src="./statics/js/mui.js"></script>
+	<!--<script src="./statics/js/H5Common.js"></script>-->
+	<link href="./statics/css/mui.css" rel="stylesheet"/>
+	<link href="./statics/css/base.css" rel="stylesheet"/>
+	<link href="./statics/css/public.css" rel="stylesheet"/>
+	<link href="./statics/css/bootPage.css" rel="stylesheet"/>
+	<script type="text/javascript" charset="utf-8">
+        mui.init();
+	</script>
+</head>
+<body>
+
+<div class="container">
+	<header class="container-top">
+		<div class="mui-pull-left">
+		</div>
+		诊前说明
+	</header>
+
+	<div class="container-body">
+
+		<div class="container-img">
+			<div class="container-div">
+				<p class="container-content">尊敬的患者及家属</p>
+				<p class="container-content text-indent1">您好!</p>
+				<p class="container-content text-indent2">首先对您入院治疗表示深深的问候，真挚的希望您在我院医护人员的精心治疗与细致的护理下早日康复！</p>
+				<p class="container-content">在您入院治疗期间，我们除了为您提供一个安全、安静、舒适的住院环境外，我们还精心为您设置了多达十几项的服务，确保您在住院期间的各种生活需求得到保障。希望我们的服务能够给您带来便捷与温暖。</p>
+				<p class="container-content text-indent3">天津市天津医院项目部</p>
+				<p class="container-content text-indent3">天津市柯林楼宇物业管理有限公司</p>
+			</div>
+
+			<div class="container-bottom">
+				<a href="#"  onclick="test()" class="container-btn mui-pull-left">返回</a><!--onclick="javascript :history.back(-1);"-->
+				<a class="container-btn mui-pull-right" onclick=window.location.href="./code/index.html";>进入首页</a>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+    (function() {
+        var html = document.documentElement;
+        var width = html.getBoundingClientRect().width;
+        html.style.fontSize = width / 15 + 'px';
+        //至于除数15可自行设置
+        //1rem=50;
+
+        //判断是否为微信浏览器
+        var ua = window.navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            wxTrue=true;
+            $("header").remove();
+            $(".container-body").css("top","0rem");
+        }else{
+            wxTrue=false;
+            $(".container-top").show();
+        }
+    })()
+
+
+    function test() {
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+            WeixinJSBridge.call('closeWindow');//微信
+        }
+    }
+</script>
+
+</html>

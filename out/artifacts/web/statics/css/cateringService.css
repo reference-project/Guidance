@@ -1,0 +1,111 @@
+
+.container-top1 {
+	color: #666666;
+	background-color: #eff3f2;
+}
+.top-title-a {
+	color: #ffffff;
+}
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 2.3rem;
+}
+.mui-group-li {
+	position: relative;
+	text-align: center;
+	border-radius: 0.4rem;
+	margin-bottom: 0.6rem;
+	width: 100%;
+	height: 3.74rem;
+	background-size: 100% 100%;
+}
+.day-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 0.9rem;
+}
+.mui-group-li-1 {
+	background-color: #f95a70;
+}
+.mui-group-li-2 {
+	background-color: #3e95fc;
+}
+.mui-group-li-3 {
+	background-color: #38b8ff;
+}
+.mui-group-li-4 {
+	background-color: #2acbe7;
+}
+.icon-diet-1 {
+	background: url(../../statics/img/mui/icon-diet-1.png) no-repeat;
+}
+.icon-diet-2 {
+	background: url(../../statics/img/mui/icon-diet-2.png) no-repeat;
+}
+.icon-diet-3 {
+	background: url(../../statics/img/mui/icon-diet-3.png) no-repeat;
+}
+.icon-meal-1 {
+	background: url(../../statics/img/mui/icon-ordinary-meal.png) no-repeat;
+}
+.icon-meal-2 {
+	background: url(../../statics/img/mui/icon-special-meal.png) no-repeat;
+}
+.icon-meal-3 {
+	background: url(../../statics/img/mui/icon-children-meal.png) no-repeat;
+}
+.icon-meal-4 {
+	background: url(../../statics/img/mui/icon-treat-meal.png) no-repeat;
+}
+.icon-diet {
+	position: absolute;
+	top: 1.35rem;
+	left: 0.8rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	background-size: 100% 100%;
+}
+.mui-group-li-title {
+	position: absolute;
+	top: 1.2rem;
+	left: 3.2rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+.mui-group-li-title-english {
+	position: absolute;
+	top: 2rem;
+	left: 3.2rem;
+	font-size: 0.4rem;
+	color: #ffffff;
+}
+.icon-meal {
+	position: absolute;
+	top: 1.1rem;
+	left: 1.1rem;
+	width: 1.8rem;
+	height: 1.6rem;
+	background-size: 100% 100%;
+}
+.mui-group-li-name {
+	position: absolute;
+	top: 1.5rem;
+	left: 4.44rem;
+	font-size: 0.7rem;
+	color: #ffffff;
+}
+.icon-right-arrow {
+	position: absolute;
+	top: 1.56rem;
+	right: 0.9rem;
+	z-index: 3;
+	background: url("../../statics/img/mui/icon-right-arrow.png") no-repeat;
+	width: 0.34rem;
+	height: 0.58rem;
+	background-size: 100% 100%;
+}
+.bottom2 {
+	margin-bottom: 1.6rem;
+}

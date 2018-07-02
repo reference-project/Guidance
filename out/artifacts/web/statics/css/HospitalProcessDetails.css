@@ -1,0 +1,90 @@
+.container-body {
+	background-color: #ffffff;
+}
+.process-details {
+	padding: 0rem 0.6rem;
+	padding-bottom: 2rem;
+}
+.mui-bottom-menu {
+	padding-top: 1.6rem;
+}
+.bottom-menu-group {
+	position: relative;
+	width: 100%;
+	padding-top: 2.3rem;
+}
+.menu-group-div {
+	position: relative;
+	width: 100%;
+	line-height: 0.7rem;
+}
+.menu-group-i {
+	position: absolute;
+	top: 0.4rem;
+	left: 0rem;
+	width: 0.14rem;
+	height: 1.2rem;
+	border-radius: 0.2rem;
+	background-color: #6ee7b2;
+}
+.menu-group-index {
+	margin-left: 0.6rem;
+	margin-right: 0.3rem;
+	font-size: 1rem;
+	color: #333333;
+}
+.menu-group-title {
+	width: 11rem;
+	font-size: 1rem;
+	line-height: 2rem;
+	color: #333333;
+}
+.menu-group-stuff {
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	color: #666666;
+	padding-left: 0.6rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: 0.8rem;
+}
+.menu-group-step {
+	position: relative;
+	line-height: 0.7rem;
+	padding-left: 0.6rem;
+	padding-right: 1.3rem;
+	margin-bottom: 0.8rem;
+
+}
+.group-step-p {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	color: #999999;
+}
+.group-img-1 {
+	margin-left: 0.4rem;
+	margin-top: 0.8rem;
+	width: 11.7rem;
+	height: 8.7rem;
+}
+.findStuffImg {
+	position: absolute;
+	top: 0.8rem;
+	left: 1rem;
+	width: 11.7rem;
+	height: 8.7rem;
+	color: #ffffff;
+	font-size: 1rem;
+	background: rgba(000,000,000,0.4);
+}
+.findStuffImgTitle {
+	width: 5.6rem;
+	height: 1.44rem;
+	line-height: 1.44rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	color: #666666;
+	margin-left: 3rem;
+	margin-top: 3.6rem;
+	font-size: 0.8rem;
+	background: rgba(255,255,255,0.6);
+}

@@ -1,0 +1,429 @@
+
+.container {
+	background-color: #eff3f2;
+}
+.ordinary-calendar {
+	position: absolute;
+	top: 0.2rem;
+	right: 0.6rem;
+	background: url(./../../statics/img/mui/ordinary-date.png) no-repeat;
+	width: 0.88rem;
+	height: 0.9rem;
+	background-size: 100% 100%;
+}
+.ordinary-btn {
+	width: 4rem;
+	position: absolute;
+	top: 0.1rem;
+	right: -6rem;
+	height: 1.2rem;
+	border-radius: 0.2rem;
+	background-color: #ffffff;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+
+}
+
+.today-btn1 {
+	position: relative;
+	float: left;
+	width: 2rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #0b8fff;
+}
+.today-btn2 {
+	position: relative;
+	float: left;
+	width: 2rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #0b8fff;
+	border-left: 0.02rem solid #cccccc;
+}
+.today-li-active:after {
+	position: absolute;
+	bottom: 0rem;
+	left: 0.4rem;
+	content: "";
+	width: 1.3rem;
+	height: 0.1rem;
+	background-color: #ff9051;
+}
+
+/*星期列表*/
+.week-list {
+	position: relative;
+	width: 100%;
+	height: 1.4rem;
+	padding: 0rem 0.54rem;
+	background-color: #fa7957;
+	border-top: 0.06rem solid #ffffff;
+	box-shadow: 0.06rem 0.06rem 0.04rem #eec8c0;
+}
+.week-list-li {
+	float: left;
+	position: relative;
+	margin-right: 0.85rem;
+}
+.week-list-li:nth-child(7) {
+	margin-right: 0rem ;
+}
+.week-list-name {
+	font-size: 0.6rem;
+	color: 	#DCDCDC;
+}
+.week-list-li-active:after {
+	position: absolute;
+	bottom: -0.58rem;
+	left: 0.1rem;
+	width: 1rem;
+	content: "";
+	height: 0.12rem;
+	background-color: #ffffff;
+	border-radius: 0.06rem;
+}
+.week-list-li-active .week-list-name{
+	color: #ffffff;
+}
+
+/*早中晚*/
+.meal-time {
+	width: 100%;
+}
+.meal-time-ul {
+	width: 100%;
+	height: 1.84rem;
+	border-bottom: 0.02rem solid #cccccc;
+}
+.meal-time-li {
+	position: relative;
+	float: left;
+	width: 33%;
+	height: 1.84rem;
+	line-height: 1.84rem;
+	color: #999999;
+	text-align: center;
+}
+.time-li-active:after {
+	position: absolute;
+	bottom: 0rem;
+	left: 1.8rem;
+	content: "";
+	width: 1.3rem;
+	height: 0.1rem;
+	background-color: #ff9051;
+}
+
+/*餐类列表*/
+.meal-list {
+	padding: 0.8rem 0.6rem;
+}
+/*侧边栏分类*/
+.meal-sidebar {
+	float: left;
+	width: 3.6rem;
+}
+.meal-sidebar-li {
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: left;
+	width: 100%;
+	color: #999999;
+}
+.meal-sidebar-img {
+	vertical-align: middle;
+	width: 0.76rem;
+	height: 0.76rem;
+}
+.meal-sidebar-span {
+	margin-left: 0.3rem;
+	font-size: 0.5rem;
+	color: #999999;
+}
+.sidebar-li-active .meal-sidebar-span {
+	color: #333333 !important;
+}
+.meal-details {
+	padding-top: 0.2rem;
+	width: 10rem;
+	float: right;
+	height: 17rem;
+	overflow-y: auto;
+}
+.meal-details-li {
+	height: 2.9rem;
+	position: relative;
+	padding-left: 3.7rem;
+	margin-bottom: 0.7rem;
+}
+.details-li-img {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 3.28rem;
+	height: 2.9rem;
+}
+.details-li-title {
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 700;
+	margin-top: 0.06rem;
+	margin-bottom: 0.08rem;
+}
+.details-li-food {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.li-food-label {
+	width: 1.4rem;
+	float: left;
+}
+.li-food-p {
+	width: 4.8rem;
+	height: 0.8rem;
+	float: right;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.showAll{
+	position: absolute;
+	top: 0rem;
+	left: 1.4rem;
+	width: 4.8rem;
+	z-index:10;
+	text-indent: 0.5rem;
+	color:#ffffff;
+	border-radius: 0.2rem;
+	background-color: #0b8fff;
+}
+.li-food-p:hover {
+	overflow-x: auto;
+}
+.details-li-love {
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+}
+.li-love-label {
+	width: 1.4rem;
+	float: left;
+}
+.li-love-p {
+	padding-top: 0.12rem;
+	width: 4.8rem;
+	float: right;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.li-love-p-li {
+	width: 0.36rem;
+	height: 0.44rem;
+	float: left;
+	position: relative;
+	margin-right: 0.16rem;
+}
+.li-love-p-i {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	background: url("./../../statics/img/mui/icon-love.png") no-repeat;
+	width: 0.36rem;
+	height: 0.44rem;
+	background-size: 100% 100%;
+}
+.details-li-price {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.li-price-label {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 1.4rem;
+}
+.li-price-p {
+	position: absolute;
+	top: 0rem;
+	left: 0.9rem;
+	padding-left: 1.1rem;
+	width: 4.8rem;
+	color: #f12323;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.li-price-p:before {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	content: "¥";
+	font-size: 0.5rem;
+	color: #f12323;
+}
+
+/*普餐*/
+.ordinary-meal-details {
+	padding-top: 0.2rem;
+	width: 12.4rem;
+	margin-left: 0.7rem;
+	height: 16.2rem;
+	overflow-y: auto;
+}
+.ordinary-meal-li {
+	padding-top: 0.5rem;
+	height: 2.9rem;
+	position: relative;
+	padding-left: 3.7rem;
+	margin-bottom: 0.7rem;
+}
+.ordinary-meal-img {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 3.28rem;
+	height: 2.9rem;
+}
+.ordinary-meal-title {
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 700;
+	margin-bottom: 0.2rem;
+}
+.ordinary-meal-food {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 8.6rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.ordinary-food-label {
+	font-size: 0.48rem;
+	width: 1.4rem;
+	float: left;
+}
+.ordinary-food-p {
+	width: 7.2rem;
+	height: 0.8rem;
+	float: right;
+	font-size: 0.48rem;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.showAll{
+	position: absolute;
+	top: 0rem;
+	left: 1.4rem;
+	width: 4.8rem;
+	z-index:10;
+	text-indent: 0.5rem;
+	color:#ffffff;
+	border-radius: 0.2rem;
+	background-color: #0b8fff;
+}
+.li-food-p:hover {
+	overflow-x: auto;
+}
+.ordinary-li-love {
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+}
+.ordinary-love-label {
+	font-size: 0.48rem;
+	width: 1.4rem;
+	float: left;
+}
+.ordinary-love-p {
+	padding-top: 0.2rem;
+	width: 4.8rem;
+	float: right;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.ordinary-love-p-li {
+	width: 0.36rem;
+	height: 0.44rem;
+	float: left;
+	position: relative;
+	margin-right: 0.16rem;
+}
+.ordinary-love-p-i {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	background: url("./../../statics/img/mui/icon-love.png") no-repeat;
+	width: 0.36rem;
+	height: 0.44rem;
+	background-size: 100% 100%;
+}
+.ordinary-li-price {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.ordinary-price-label {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 1.4rem;
+}
+.ordinary-price-p {
+	position: absolute;
+	top: 0rem;
+	left: 0.9rem;
+	padding-left: 1.1rem;
+	width: 4.8rem;
+	color: #f12323;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.ordinary-price-p:before {
+	position: absolute;
+	top: 0rem;
+	left: 0.6rem;
+	content: "¥";
+	font-size: 0.5rem;
+	color: #f12323;
+}
+
+/*小方框提示信息*/
+.meal-info {
+	margin-top: 0.5rem;
+	margin-left: 1.3rem;
+	width: 12.4rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: 0.52rem;
+	color: #666666;
+	border: 0.02rem solid #fb5d53;
+	border-radius: 0.2rem;
+}

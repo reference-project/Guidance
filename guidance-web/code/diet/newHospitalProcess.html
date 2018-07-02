@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新住院流程</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/newHospitalProcess.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			新住院流程
+		</header>
+		<div class="container-body">
+
+			<!--项目流程-->
+			<div class="customer-phone-title">
+				<i class="customer-phone-line"></i>
+				<label class="customer-phone-label">项目流程</label>
+			</div>
+
+			<!--图片列表-->
+			<ul class="mui-group-ul">
+				<a class="mui-group-li mui-group-li-1" href="./hospitalProcessDetails.html#view1">
+					<i class="icon-i-1"></i>
+					<span class="icon-li-index icon-index-1"></span>
+					<p class="group-li-title">入院登记</p>
+					<p class="li-title-english">Pay in hospital deposit</p>
+				</a>
+				<a class="mui-group-li mui-group-li-2" href="./hospitalProcessDetails.html#view2">
+					<i class="icon-i-2"></i>
+					<span class="icon-li-index icon-index-2"></span>
+					<p class="group-li-title">到处置室体检</p>
+					<p class="li-title-english">Go to a physical examination</p>
+				</a>
+				<a class="mui-group-li mui-group-li-3" href="./hospitalProcessDetails.html#view3">
+					<i class="icon-i-3"></i>
+					<span class="icon-li-index icon-index-3"></span>
+					<p class="group-li-title" >办理无陪护一卡通IC卡</p>
+					<p class="li-title-english">Open a card</p>
+				</a>
+				<a class="mui-group-li mui-group-li-4" href="./hospitalProcessDetails.html#view4">
+					<i class="icon-i-4"></i>
+					<span class="icon-li-index icon-index-4"></span>
+					<p class="group-li-title" >到病区护理站登记入住</p>
+					<p class="li-title-english">Check in</p>
+				</a>
+				<a class="mui-group-li mui-group-li-5" href="./hospitalProcessDetails.html#view5">
+					<i class="icon-i-5"></i>
+					<span class="icon-li-index icon-index-5"></span>
+					<p class="group-li-title" >护工组长接收患者及订陪护等级</p>
+					<p class="li-title-english">Patient and order of escort</p>
+				</a>
+			</ul>
+
+			<!--入院须知-->
+			<div class="hospitalNotice">
+				<button type="button" class="hospital-btn" onclick="window.location='hospitalNotice.html'">入院须知</button>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	
+</body>
+
+<script type="text/javascript">
+
+    mui("#bottomMenu").popover('toggle');
+    //点击详情弹出菜单
+//    $(".group-li-btn").click(function () {
+//        $("#title").show();
+//        $("#realMap-img").show();
+//        $("#handledetails").html($(this).next().html());
+//        mui("#bottomMenu").popover('toggle');
+//    });
+
+    //点击入院须知
+//    $(".mui-notice").click(function () {
+//        $("#title").hide();
+//        $("#realMap-img").hide();
+//        $("#handledetails").html($(this).next().html());
+//        mui("#bottomMenu").popover('toggle');
+//    })
+
+</script>
+
+</html>

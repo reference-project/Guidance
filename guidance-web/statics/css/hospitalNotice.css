@@ -1,0 +1,15 @@
+
+.notice-details {
+    padding: 1rem 0.8rem 0.9rem 0.8rem;
+}
+.notice-details-p {
+    font-size: 0.7rem;
+    color: #999999;
+    line-height: 0.8rem;
+    text-align: justify;
+    text-indent: 1.4rem;
+    text-justify: inter-ideograph;
+}
+.details-p {
+     text-indent: 1.4rem;
+ }

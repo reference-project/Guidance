@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.slk.guidance.mapper.G_nursinglevel.GNursinglevelMapper">
+    <resultMap id="BaseResultMap" type="com.slk.guidance.model.G_nursinglevel.GNursinglevel">
+        <id column="id" property="id"/>
+        <id column="wardid" property="wardid"/>
+        <id column="wardname" property="wardname"/>
+        <id column="nursingname" property="nursingname"/>
+        <id column="workinfo" property="workinfo"/>
+        <id column="serviceinfo" property="serviceinfo"/>
+        <id column="price" property="price"/>
+        <id column="createdate" property="createdate"/>
+        <id column="createuser" property="createuser"/>
+    </resultMap>
+
+    <select id="selectNursingLevelAll" resultMap="BaseResultMap">
+        SELECT * FROM g_nursinglevel ORDER BY id ASC
+    </select>
+
+    <select id="selectNursingLevelByWardId" resultMap="BaseResultMap">
+        SELECT * FROM g_nursinglevel WHERE wardid=#{wardid} ORDER BY id ASC
+    </select>
+    <insert id="insertNursingLevel">
+        INSERT INTO g_nursinglevel(
+            wardid,
+            wardname,
+            nursingname,
+            workinfo,
+            serviceinfo,
+            price,
+            createdate,
+            createuser
+        ) VALUES (
+            #{wardid},
+            #{wardname},
+            #{nursingname},
+            #{ workinfo},
+            #{serviceinfo},
+            #{price},
+            NOW(),
+            #{createuser}
+        )
+
+    </insert>
+    <update id="updateNursingLevel">
+        UPDATE g_nursinglevel
+        <set>
+            <if test="wardid!=null and wardid!=''">
+                wardid=#{wardid},
+            </if>
+            <if test="wardname!=null and wardname!=''">
+                wardname=#{wardname},
+            </if>
+            <if test="nursingname!=null and nursingname!=''">
+                nursingname=#{nursingname},
+            </if>
+            <if test="workinfo!=null and workinfo!=''">
+                workinfo=#{workinfo},
+            </if>
+            <if test="serviceinfo!=null and serviceinfo!=''">
+                serviceinfo=#{serviceinfo},
+            </if>
+            <if test="price!=null and price!=''">
+                price=#{price},
+            </if>
+            <if test="createuser!=null and createuser!=''">
+                createuser=#{createuser},
+            </if>
+            createdate=NOW()
+        </set>
+        WHERE id=#{id}
+    </update>
+
+    <delete id="deleteNursingLevel">
+        DELETE FROM g_nursinglevel WHERE id=#{id}
+    </delete>
+</mapper>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>特需膳食</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/ordinaryDiet.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			特需膳食
+		</header>
+		<div class="container-body">
+
+			<!--普通膳食-->
+			<div class="ordinary-diet-title">
+				<i class="ordinary-diet-line"></i>
+				<label class="ordinary-diet-label">特需膳食</label>
+				<p class="ordinary-diet-p">菜品展示:</p>
+				<div class="right-silp"></div>
+			</div>
+
+			<!--图片区域-->
+			<div class="ordinary-img-area">
+				<ul class="ordinary-list">
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/specail-img-2.jpg" class="specail-img">
+					</li>
+				</ul>
+			</div>
+
+			<!--介绍部分-->
+			<div class="ordinary-introduce">
+				<div class="ordinary-introduce-group">
+					<label class="ordinary-introduce-label">介绍：</label>
+					<span class="ordinary-introduce-describle">针对于部分处于恢复期，需改善膳食口味，对能量及营养素等无医疗需求患者提供的特殊需求膳食。建议患者在征询临床医生许可后订购。</span>
+				</div>
+				<br>
+				<div class="ordinary-introduce-group">
+					<label class="ordinary-introduce-label">特需膳食：</label>
+					<span class="ordinary-introduce-describle"></span>
+				</div>
+				<div class="ordinary-introduce-group">
+					<span class="ordinary-introduce-describle" style="margin-left: 0.3rem">早餐：云吞、肉龙、套餐</span>
+				</div>
+				<div class="ordinary-introduce-group">
+					<span class="ordinary-introduce-describle" style="margin-left: -0.75rem">午/晚餐：</span>
+					<span class="ordinary-introduce-describle" style="margin-left: 1.8rem">炒菜</span>
+				</div>
+				<div class="ordinary-introduce-group">
+					<span class="ordinary-introduce-describle" style="margin-left: 1.8rem">面食（包子/水饺）</span>
+				</div>
+			</div>
+
+			<!--查看菜单-->
+			<div class="find-menu" style="display: block; margin-top: 0.6rem;">
+				<button type="button" class="find-menu-btn" onclick="window.location='./SpecialMeal.html'">查看菜单</button>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		//设置图片父元素宽度
+		$(function () {
+            var count = $(".ordinary-list li").length;
+		    var Liwidth = $(".ordinary-group").width();
+		    var width = Number(count*Liwidth)+50;
+		    $(".ordinary-list").css("width",width+"px");
+		})
+
+
+
+	</script>
+</body>
+
+
+</html>

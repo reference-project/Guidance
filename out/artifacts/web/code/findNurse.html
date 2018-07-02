@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>找护工</title>
+	<script src="../statics/js/jquery-3.2.1.js"></script>
+	<script src="../statics/js/mui.js"></script>
+	<script src="../statics/js/H5Common.js"></script>
+	<script src="../statics/js/public.js"></script>
+	<link href="../statics/css/mui.css" rel="stylesheet"/>
+	<link href="../statics/css/base.css" rel="stylesheet"/>
+	<link href="../statics/css/public.css" rel="stylesheet"/>
+    <link href="../statics/css/findNurse.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			找护工
+		</header>
+
+		<div class="container-body">
+
+			<div class="ward-area-top">
+				<label class="ward-area-title1">所属病区</label>
+				<select class="ward-area-select" id="ward">
+
+				</select>
+				<h4 class="ward-area-title2">收费标准：</h4>
+
+				<!--电话列表-->
+				<span class="ward-area-phone" id="icon-phone"></span>
+				<!--<a href="tel:10086" class="ward-area-tel"></a>-->
+				<!--<div class="contact-info">-->
+					<!--<ul class="contact-info-ul">-->
+
+					<!--</ul>-->
+
+				<!--</div>-->
+
+			</div>
+			<!--护理列表-->
+			<div class="ward-area-list">
+				<ul class="ward-group-ul">
+
+				</ul>
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+
+
+<script type="text/javascript">
+	$(function(){
+
+        if(wxTrue){
+
+		}
+        var result=showHtml(url + "phone/h5Nursing/selectWardAll","");
+        if(null!=result){
+            for(var p in result.wardList){
+                var html="<option value='"+result.wardList[p].id+"'>"+result.wardList[p].wardname+"</option>";
+                $("#ward").append(html);
+            }
+        }
+		var wardid=$("#ward").find("option:selected").val();
+        nursingLevelByWardId(wardid);
+        workerInfo(wardid);
+
+	})
+
+	$("#ward").change(function(){
+        var wardid=$("#ward").find("option:selected").val();
+        workerInfo(wardid);
+        nursingLevelByWardId(wardid);
+
+	})
+
+	function nursingLevelByWardId(wardid){
+        $(".ward-group-ul").empty();
+        var result=showHtml(url + "phone/h5Nursing/selectNursingLevelByWardId/"+wardid,"");
+        if(null!=result){
+            var data=result.nursingLevelList;
+            for(var p in data){
+                var html="<li class='ward-group-li'>" +
+                    "<label class='ward-group-title1'>"+data[p].nursingname+"：</label>" +
+                    "<div class='ward-group-div'>" +
+                    "<label class='ward-group-title2'>工作：</label>" +
+                    "<span class='ward-group-content2'>"+data[p].workinfo+"</span>" +
+                    "</div>" +
+                    "<div class='ward-group-div'>" +
+                    "<label class='ward-group-title2'>适用病情：</label>" +
+                    "<span class='ward-group-content2'>"+data[p].serviceinfo+"</span>" +
+                    "</div>" +
+                    /*"<div class='ward-group-div'>" +
+                    "<label class='ward-group-title2'>价格:</label>" +
+                    "<span class='ward-group-content2-red'>￥"+data[p].price+"</span>" +
+                    "</div>" +*/
+                    "</li>"
+                $(".ward-group-ul").append(html);
+            }
+
+        }
+	}
+	function workerInfo(wardid){
+        $(".contact-info-ul").empty();
+
+        $(".ward-area-tel").remove();
+
+        var result=showHtml(url + "phone/h5Nursing/selectWorkerByWardId/"+wardid,"");
+        console.log(result);
+        if(null!=result){
+            var data=result.workerList;
+
+            if("" ==data || null== data){
+                $("#icon-phone").hide();
+			}
+            for(var p in result.workerList){
+                if("" !=data[p].phone || null!= data[p].phone){
+                    $("#icon-phone").show();
+                    $("#icon-phone").after('<a href="tel:'+data[p].phone+'" class="ward-area-tel"></a>');
+				}
+//                var phones = data[p].phone.replace(/^(\d{4})\d{4}(\d+)/,"$1****$2");
+//                var html=
+//                    '<li class="contact-info-li">' +
+//                    '<div class="ward-group-div1">' +
+//                    '<label class="contact-group-title1">联系人：</label>' +
+//                    '<span class="contact-group-title1">'+data[p].workername+'</span>' +
+//                    '</div>' +
+//                    '<div class="ward-group-div2">' +
+//                    '<label class="contact-group-title1">电话：</label>' +
+//                    '<span class="contact-group-title1">'+phones+'</span>' +
+//                    '<a href="tel:'+data[p].phone+'"><img class="ward-group-telphone" src="./../statics/img/mui/icon-telphone.png"></a>' +
+//                    '</div>' +
+//                    '</li>';
+//                $(".contact-info-ul").append(html);
+            }
+        }
+
+	}
+
+
+</script>
+
+</html>

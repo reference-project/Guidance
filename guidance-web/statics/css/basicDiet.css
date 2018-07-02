@@ -1,0 +1,58 @@
+
+/*服务项目*/
+.basic-diet-title {
+	padding: 0rem 1.46rem;
+	position: relative;
+	padding-top: 0.9rem;
+	height: 3rem;
+}
+.basic-diet-line {
+	position: absolute;
+	top: 0.8rem;
+	left: 1.46rem;
+	width: 0.14rem;
+	height: 0.92rem;
+	border-radius: 0.1rem;
+	background-color: #fa7e58;
+}
+.basic-diet-label {
+	margin-left: 0.64rem;
+	font-size: 0.7rem;
+	color: #333333;
+	font-weight: 700;
+	line-height: 0.7rem;
+}
+.basic-diet-label-english {
+	font-size: 0.6rem;
+	color: #999999;
+	margin-top: 0.4rem;
+	line-height: 0.6rem;
+}
+
+.basic-diet-ul {
+	padding: 1rem 1.48rem;
+}
+.basic-diet-li {
+	position: relative;
+	width: 12.1rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: left;
+	border-bottom: 0.02rem solid #bfbfbf;
+	margin-bottom: 0.7rem;
+}
+.basic-diet-name {
+	color: #666666;
+	font-size: 0.7rem;
+}
+.icon-arrow-right {
+	position: absolute;
+	top: 0.8rem;
+	right: 0.6rem;
+	background: url("./../../statics/img/mui/icon-right-arrow.png") no-repeat;
+	width: 0.36rem;
+	height: 0.58rem;
+	background-size: 100% 100%;
+}
+
+

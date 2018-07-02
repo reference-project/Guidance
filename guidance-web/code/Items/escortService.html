@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>无陪护服务</title>
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+    <script src="./../../statics/js/mui.js"></script>
+    <link href="./../../statics/css/mui.css" rel="stylesheet"/>
+    <link href="./../../statics/css/base.css" rel="stylesheet"/>
+    <link href="./../../statics/css/public.css" rel="stylesheet"/>
+    <link href="./../../statics/css/escortService.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			住院过程中的服务
+		</header>
+		<div class="container-body">
+			<!--服务介绍-->
+			<div class="serviceIntroduce">
+				<h4 class="serviceIntroduce-title">服务介绍:</h4>
+				<div class="serviceIntroduce-describe">
+					<p class="serviceIntroduce-details">本院为无陪护管理住院模式，家属可在规定时间内探视，患者或家属需在B楼一层西区处置室内(收费中心)开通无陪护一卡通(预存费用)并支付生活陪护费用后，方可享受以下部分免费服务项目，具体详见详情。</p>
+				</div>
+			</div>
+			<div class="demarcation-line"></div>
+			<!--图片列表-->
+			<ul class="service-list">
+				<li class="service-list-group">
+					<div class="service-name service-name-1" onclick="window.location='NoEscort/nursing.html'">护理服务</div>
+				</li>
+				<li class="service-list-group">
+					<div class="service-name service-name-2" onclick="window.location='../cateringService.html'">配餐服务</div>
+				</li>
+				<li class="service-list-group">
+					<div class="service-name service-name-3" onclick="window.location='NoEscort/blood.html'">用血服务</div>
+				</li>
+				<li class="service-list-group">
+					<div class="service-name service-name-4"onclick="window.location='../shopPosition.html'">自助商品</div>
+				</li>
+				<li class="service-list-group">
+					<div class="service-name service-name-5" onclick="window.location='NoEscort/lease.html'">器材租赁</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+        $(function () {
+            if(wxTrue){
+                $(".serviceIntroduce").css("padding-top","0rem");
+            }
+        });
+
+
+
+	</script>
+</body>
+
+
+</html>

@@ -1,0 +1,228 @@
+<!doctype html>
+	<!--suppress ALL -->
+<head>
+		<title>服务管理</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="import" href="../../statics/include-header.html">
+		<link rel="import" href="../../statics/include-JS.html">
+	</head>
+	<body>
+	<abbr>
+
+		<style>
+			.InfoFinds {
+				padding-right: 20px;
+				display: inline-block;
+				width: 300px;
+				color: #333333;
+				overflow: hidden;
+			}
+		</style>
+
+		<div id="body1">
+			<button type="button" id="openAddService" class="btn btn-wide btn-primary" data-toggle="modal" data-target="#md-modal">
+				添加服务
+			</button>
+			<br/>
+			<!--<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-labelledby="modal-error-label">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header state modal-danger">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="modal-error-label"><i class="fa fa-warning"></i>删除</h4>
+						</div>
+						<div class="modal-body">
+							请您确定要删除此数据吗？
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="delWork()">确定</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<div class="modal fade " id="md-modal" tabindex="-1" role="dialog" aria-labelledby="modal-default-label">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header state modal-primary">
+							<h4 class="modal-title" id="modal-default-label">服务信息</h4>
+						</div>
+						<div class="modal-body">
+							<div class="col-md-12">
+								<div class="panel">
+									<div class="panel-content">
+										<div class="row">
+											<div class="col-sm-12">
+												<form id="modifyService" class="form-horizontal form-stripe">
+													<h6 class="mb-xlg text-center"><b>服务信息</b></h6>
+													<input hidden="hidden" id="id" name="id">
+													<div class="form-group">
+														<label  class="col-sm-2 control-label">类型</label>
+														<div class="col-sm-10">
+															<input type="text" id="type" name="type" data-id="notnull" class="form-control">
+														</div>
+													</div>
+														<div class="form-group">
+															<label  class="col-sm-2 control-label">详细信息</label>
+															<div class="col-sm-10">
+																<textarea name="info" id="info" class="form-control"></textarea>
+															</div>
+														</div>
+													<div class="form-group">
+														<label  class="col-sm-2 control-label">须知</label>
+														<div class="col-sm-10">
+															<textarea name="notice" id="remark" class="form-control"></textarea>
+														</div>
+													</div>
+													<div class="form-group">
+														<label  class="col-sm-2 control-label">备注</label>
+														<div class="col-sm-10">
+															<textarea name="remark" id="remark" class="form-control"></textarea>
+														</div>
+													</div>
+														<div class="form-group" >
+															<label class="col-sm-2 control-label">图片</label>
+															<img id="preview" style="margin-left:20px; width:80px;height:110px; border: 3px solid #32C5D3;" >
+														</div>
+														<div class="form-group">
+															<label  class="col-sm-2 control-label">上传图片</label>
+															<button type="button" class="choiceImg" onclick="selectFile(); "  style=" border: 2px solid gr; border-radius: 5px; margin-right: 40px;" >选择图片</button>
+															<input type="file" name="files" id="btnfile" style="display:none;" onchange="fileType();"/>
+															<span style="color: #e73d4a;"></span>
+														</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="reminder-info"></div>
+							<button onclick="submitData()" type="button" class="btn btn-primary">确定</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row animated fadeInRight">
+				<div class="col-sm-12">
+					<div class="panel">
+						<div class="panel-content">
+							<div class="table-responsive">
+								<table id="sqz" class="data-table table table-striped nowrap table-hover" cellspacing="0" width="100%">
+									<thead>
+									<th name="id">ID</th>
+									<th name="type">类型</th>
+									<th name="url">图片</th>
+									<th name="info" >详情</th>
+									<th name="notice" >须知</th>
+									<th name="remark" >备注</th>
+									<th name="createuser" >创建人</th>
+									<th name="createtime" >创建时间</th>
+									<th name="cz">状态</th>
+									</thead>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--显示图片-->
+		<div id="ImgBox" style="position: absolute;top: 30%;left: 30%;z-index: 999999;">
+
+		</div>
+			<script type="text/javascript">
+                $(function() {
+                    //初始化数据
+                    initDatas();
+                    //预留若有初始化样式或对JS有一些初始化要求则可写入，如：页面加载时 初始化自动生成一批li div等标签，若无作用可去掉
+                    initJs("modifyService","md-modal","body1");
+                });
+
+                $("#openAddService").click(function(){
+                    $("#modifyService").clearfrom();
+					$("#type").removeAttr("readonly");
+                    $("#preview").hide();
+				})
+
+                //修改用户前操作，如数据渲染，环境准备（清空表单加载效果等）
+                function upService(service){
+                    $("#type").attr("readonly","readonly");
+                    $("#modifyService").clearfrom();
+                    $("#preview").show();
+                    $("#preview").attr('src',service.url);
+                    $("#modifyService").setForm(service);
+                    $("#type option:selected").val(service.type);
+
+                }
+                //添加修改方法- -
+                function submitData(){
+                    var service = $("#modifyService").serializeJson();
+                    if(check_Form(modifyService)){
+                        messagePrompt(showHtml(url+"service/updateService",service));
+                        showHtmlRight('./code/service/serviceList.html');
+					}
+                }
+                function selectFile(){
+                    $("#btnfile").click();
+                }
+                function fileType(){
+                    var name=$("#btnfile").val();
+                    var fileName = name.substring(name.lastIndexOf(".")+1).toLowerCase();
+                    if(fileName != ''){
+                        /!* 选择的不是图片就重新选 *!/
+                        if(fileName !="jpg" && fileName !="jpeg" && fileName !="png" && fileName !="gif"){
+                            checkMessage("请选择图片文件上传！");
+                            return false;
+                            /!* 是图片就显示缩略图 *!/
+                        }else{
+                            $("#preview").show();
+                            var docObj = document.getElementById("btnfile");
+                            var imgObjPreview = document.getElementById("preview");
+                            imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
+                            return true;
+                        }
+                    }else{
+                        $("#preview").css("display","block");
+                        return false;
+                    }
+                }
+
+                function lookImg(id,url){
+                    if(url!=null&&url!=''){
+                        $("#ImgBox").append('<img class="ImgBox'+id+'"  src="'+url+'" style="width: 200px;height: 280px;">');
+					}
+                }
+                function closeImg(id){
+                    $(".ImgBox"+id).remove();
+                }
+                function initDatas() {
+                    var result=showHtml(url + "service/selectServiceAll","");
+					console.log(result);
+                    if(null!=result){
+                        for(var p in result.serviceList){
+                            var html='<button type="button" onclick="upService(' + JSON.stringify(result.serviceList[p]).replace(/\"/g,"'")+ ')" class="btn btn-wide btn-info" data-toggle="modal" data-target="#md-modal">' +
+                                '修改' +
+                                '</button>&nbsp' ;
+                                /*'<button type="button" onclick="setdel(' + result.worksList[p].id + ')" class="btn btn-wide btn-danger" data-toggle="modal" data-target="#error-modal">' +
+                                '删除' +
+                                '</button>';*/
+                            result.serviceList[p].cz=html;
+
+                            result.serviceList[p].info='<a class="InfoFinds" title="'+result.serviceList[p].info+'">'+result.serviceList[p].info+'</a>';
+
+                            result.serviceList[p].notice='<a class="InfoFinds" title="'+result.serviceList[p].notice+'">'+result.serviceList[p].notice+'</a>';
+
+                            result.serviceList[p].url='<a class="imgs" href="'+result.serviceList[p].url+'" target="_blank"  onmouseover="lookImg('+result.serviceList[p].id+',\''+result.serviceList[p].url+'\');" onmouseout="closeImg('+result.serviceList[p].id+',\''+result.serviceList[p].url+'\');">' +'查看' +
+								'</a>';
+                        }
+                        ShowDataTable("sqz",result.serviceList ,"id");
+                    }
+                }
+			</script>
+	</abbr>
+	</body>
+</html>

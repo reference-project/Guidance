@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>治疗膳食</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/ordinaryDiet.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			治疗膳食
+		</header>
+		<div class="container-body">
+
+			<!--普通膳食-->
+			<div class="ordinary-diet-title">
+				<i class="ordinary-diet-line"></i>
+				<label class="ordinary-diet-label">治疗膳食</label>
+				<p class="ordinary-diet-p">菜品展示:</p>
+			</div>
+
+			<!--单图展示-->
+			<div class="single-img-area">
+				<img class="single-img" src="./../../statics/img/mui/meal-img-1.jpg">
+			</div>
+
+			<!--图片区域-->
+			<!--<div class="ordinary-img-area">
+				<ul class="ordinary-list">
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+					<li class="ordinary-group">
+						<img src="./../../statics/img/mui/icon-ordinary1.png" class="ordinary-img">
+					</li>
+				</ul>
+			</div>-->
+
+			<!--介绍部分-->
+			<div class="ordinary-introduce">
+				<label class="ordinary-introduce-label">介绍：</label>
+				<span class="ordinary-introduce-describle">对食物营养种类及含量没有特殊要求的膳食。适用于病情较轻，体温正常和无消化道疾病患者，疾病恢复期及不必限制饮食者。膳食营养素平衡，无刺激性的一般食物，但油煎，胀气食物及强烈调味品需限制。每日三餐总热量9.2～10.88MJ(2200-2600kcal)。</span>
+				<br>
+				<label class="ordinary-introduce-label">价格：</label>
+				<span class="ordinary-introduce-describle">12元/天(早中午三餐)</span>
+			</div>
+
+			<!--查看菜单-->
+			<div class="find-menu" id="findmenu" >
+				<button type="button" class="find-menu-btn" onclick="window.location.href='./ordinaryMeal.html?typeId=10'">查看菜单</button>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+        //设置图片父元素宽度
+        $(function () {
+            var count = $(".ordinary-list li").length;
+            var Liwidth = $(".ordinary-group").width();
+            var width = Number(count*Liwidth)+50;
+            $(".ordinary-list").css("width",width+"px");
+
+            var result = showHtml(url+"mealmenu/selectFeedCountByTypeId/2");
+            console.log(result);
+            if (result.flag){
+                $("#findmenu").show();
+            }else{
+                $("#findmenu").hide();
+            }
+        })
+
+
+
+	</script>
+</body>
+
+
+</html>

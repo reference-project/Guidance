@@ -1,0 +1,79 @@
+.container-top {
+	color: #333333;
+	background-color: #f1f5f4;
+}
+.top-title-a {
+	color: #333333;
+}
+.icon-back-black {
+	position: absolute;
+	top: 0.4rem;
+	left: 0.32rem;
+	background: url(../../statics/img/mui/icon-back-black.png) no-repeat;
+	width: 0.52rem;
+	height: 0.88rem;
+	background-size: 100% 100%;
+}
+.icon-share {
+	position: absolute;
+	top: 0.4rem;
+	right: 0.32rem;
+	background: url(../../statics/img/mui/icon-share.png) no-repeat;
+	width: 0.88rem;
+	height: 0.88rem;
+	background-size: 100% 100%;
+}
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 0.4rem;
+}
+.mui-group-li {
+	position: relative;
+	text-align: center;
+	border-radius: 0.4rem;
+	margin-bottom: 0.24rem;
+	width: 100%;
+	height: 4.78rem;
+	background-size: 100% 100%;
+}
+.mui-group-li-1 {
+	background: url(../../statics/img/mui/icon-position.png) no-repeat;
+	background-size: 100% 100%;
+}
+.mui-group-li-2 {
+	background: url(../../statics/img/mui/icon-service-project.png) no-repeat;
+	background-size: 100% 100%;
+}
+.mui-group-li-3 {
+	background: url(../../statics/img/mui/icon-new-hospital.png) no-repeat;
+	background-size: 100% 100%;
+}
+.mui-group-li-title {
+	position: absolute;
+	top: 1.5rem;
+	left: 0rem;
+	font-size: 0.8rem;
+	color: #ffffff;
+	width: 100%;
+	height: 0.8rem;
+}
+.mui-group-li-content {
+	position: absolute;
+	top: 2.8rem;
+	left: 0rem;
+	font-size: 0.56rem;
+	width: 100%;
+	height: 0.56rem;
+	color: #ffffff;
+}
+
+.telphone-img {
+	position: fixed;
+	bottom: 2.2rem;
+	right: 0.8rem;
+	z-index: 999999;
+	width: 2.24rem;
+	height: 2.38rem;
+}

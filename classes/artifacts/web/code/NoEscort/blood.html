@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>用血服务</title>
+    <script src="../../statics/js/mui.js"></script>
+    <link href="../../statics/css/mui.css" rel="stylesheet"/>
+    <link href="../../statics/css/base.css" rel="stylesheet"/>
+    <link href="../../statics/css/public.css" rel="stylesheet"/>
+    <link href="../../statics/css/oneToone.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+
+<div class="position">
+    <div class="top-bar"></div>
+    <header class="top-title">
+        <div class="mui-pull-left">
+            <span class="mui-icon icon-back"></span>
+            <a href="#" onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+        </div>
+        用血服务
+    </header>
+    <!--图片列表-->
+    <ul class="mui-group-ul">
+        <li class="mui-group-li">
+            <div class="mui-group-li-title">
+                <span class="group-li-title-icon"></span>
+                <p class="group-li-title-title">用血取送代办</p>
+            </div>
+            <div class="mui-group-li-content">
+                <span class="group-li-content-img-blood"></span>
+                <p class="group-li-content-describe">
+                    当住院患者因病情需要进行相关输血检查时，科室医生根据病情严重程度，安排输血事项。为防范和处理输血在途中或检查时发生意外，特制定专人取送血液。
+
+                </p>
+                <span class="mui-icon-mark"></span>
+            </div>
+            <div class="explain-book">
+                <p class="explain-book-details">如需要办理用血，请您持医生开具的《医疗单位临床用血申请》单及患者本人身份原件，到办理入院时的收费中心进行办理。</p>
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+
+</body>
+
+<script src="../../statics/js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+
+    //屏幕适配
+    (function() {
+        var html = document.documentElement;
+        var width = html.getBoundingClientRect().width;
+        html.style.fontSize = width / 15 + 'px';
+        //至于除数15可自行设置
+        //1rem=50;
+    })()
+
+    //点击感叹号显示说明
+    $(".mui-icon-mark").click(function () {
+        $(this).parent().next(".explain-book").toggle(1000);
+    })
+
+</script>
+
+</html>

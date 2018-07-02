@@ -1,0 +1,124 @@
+
+/*公共页面布局------------*/
+.container {
+	width: 100%;
+	height: 26.68rem;
+	background-color: #eff3f2;
+}
+.top-bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #fa7959;
+}
+/*头部*/
+.container-top {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	text-align: center;
+	width: 100%;
+	height: 1.78rem;
+	line-height: 1.78rem;
+	padding: 0 0.3rem;
+	font-size: 0.72rem;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #fa7959;
+}
+.mui-pull-left {
+
+}
+.icon-back {
+	position: absolute;
+	top: 0.4rem;
+	left: 0.32rem;
+	background: url(../../statics/img/mui/icon-back.png) no-repeat;
+	width: 0.52rem;
+	height: 0.88rem;
+	background-size: 100% 100%;
+}
+.top-title-a {
+	position: absolute;
+	top: 0rem;
+	left: 1.38rem;
+	font-weight: 400;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+/*身体*/
+.container-body {
+	position: fixed;
+	top: 2.56rem;
+	left: 0rem;
+	width: 100%;
+	height: 22.08rem;
+	overflow-y: scroll;
+}
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 0.92rem;
+}
+.mui-group-li {
+	position: relative;
+	text-align: center;
+	border-radius: 0.4rem;
+	margin-bottom: 0.6rem;
+	width: 100%;
+	height: 3.74rem;
+	background-size: 100% 100%;
+}
+.mui-group-li-1 {
+	/*background: url(../images/icon-service-project.png) no-repeat;*/
+	background-color: #f95a70;
+}
+.mui-group-li-2 {
+	background-color: #3e95fc;
+}
+.mui-group-li-3 {
+	background-color: #38b8ff;
+}
+.mui-group-li-4 {
+	background-color: #2acbe7;
+}
+.icon-floor-1 {
+	background: url(../../statics/img/mui/icon-ordinary-meal.png) no-repeat;
+}
+.icon-floor-2 {
+	background: url(../../statics/img/mui/icon-special-meal.png) no-repeat;
+}
+.icon-floor-3 {
+	background: url(../../statics/img/mui/icon-children-meal.png) no-repeat;
+}
+.icon-floor-4 {
+	background: url(../../statics/img/mui/icon-treat-meal.png) no-repeat;
+}
+.icon-floor {
+	position: absolute;
+	top: 0.8rem;
+	left: 1.06rem;
+	width: 2.1rem;
+	height: 2.02rem;
+	background-size: 100% 100%;
+}
+.mui-group-li-title {
+	position: absolute;
+	top: 1.08rem;
+	left: 4.44rem;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+.icon-right-arrow {
+	position: absolute;
+	top: 1.56rem;
+	right: 0.9rem;
+	background: url("../../statics/img/mui/icon-right-arrow.png") no-repeat;
+	width: 1.1rem;
+	height: 1rem;
+	background-size: 100% 100%;
+}
+

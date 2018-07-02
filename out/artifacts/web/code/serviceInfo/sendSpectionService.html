@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>送检服务</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/wphLifeNurse.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			送检服务
+		</header>
+		<div class="container-body">
+
+			<div class="wph-life-img">
+				<img src="" class="icon-life-img" id="Serviceimg">
+			</div>
+			<!--服务列表-->
+			<div class="wph-life-box">
+				<ul class="wph-life-ul">
+					<li class="wph-life-li">
+						<div class="wph-life-title">
+							<i class="wph-life-line life-line1"></i>
+							<label class="wph-life-label">服务介绍</label>
+						</div>
+						<div class="wph-life-details">
+							<p class="wph-life-info left-indent" id="info">为迎合本院住院无陪护管理制度，减轻家属的负担，我公司提供住院患者1对多的生活护理服务。我们的护理人员都是经过专业培训机构培训并通过考核，持专业资格证书上岗,有着专业的护理经验, 在护士长的指导下，严格在按照科学、严谨的工作流程及工作标准提供相应的生活护理。</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+        $(function(){
+            var result=showHtml(url + "/phone/service/selectServiceById/"+3,"");
+            if(result.gService!=null){
+                $("#Serviceimg").attr("src",result.gService.url);
+                $("#info").text(result.gService.info);
+            }
+        })
+	</script>
+</body>
+
+
+</html>

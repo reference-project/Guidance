@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.slk.guidance.mapper.G_service.GServiceMapper">
+
+    <select id="selectServiceAll" resultType="com.slk.guidance.model.G_service.GService">
+        SELECT * FROM g_service ORDER BY id ASC
+    </select>
+
+</mapper>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>一对一护理</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/wphLifeNurse.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			一对一护理
+		</header>
+		<div class="container-body">
+
+			<div class="wph-life-img">
+				<img src="" class="icon-life-img" id="Serviceimg">
+			</div>
+			<!--服务列表-->
+			<div class="wph-life-box">
+				<ul class="wph-life-ul">
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+			$(function(){
+                var result=showHtml(url + "/phone/service/selectServiceById/"+1,"");
+                if(result.gService!=null){
+                    if(result.gService!=null){
+                        $("#Serviceimg").attr("src",result.gService.url);
+                        var html="";
+                        if(result.gService.info!=null&&result.gService.info!=""){
+                            html+='<li class="wph-life-li">' +
+                                '<div class="wph-life-title">' +
+                                '<i class="wph-life-line life-line1"></i>' +
+                                '<label class="wph-life-label">服务介绍</label>' +
+                                '</div>' +
+                                '<div class="wph-life-details">' +
+                                '<p class="wph-life-info left-indent">'+result.gService.info+'</p>' +
+                                '</div>' +
+                                '</li>'
+                        }
+                        if(result.gService.notice!=null&&result.gService.notice!=""){
+                            html+='<li class="wph-life-li">' +
+                                '<div class="wph-life-title">' +
+                                '<i class="wph-life-line life-line2"></i>' +
+                                '<label class="wph-life-label">须知</label>' +
+                                '</div>' +
+                                '<div class="wph-life-details" >' +
+                                '<p class="wph-life-info">'+result.gService.notice+'</p>' +
+                                '</div>';
+                            if(result.gService.remark!=null&&result.gService.remark!=""){
+                                html+='<div class="wph-life-explain">' +
+                                    '<p class="wph-life-info left-indent explain-color">'+result.gService.remark+'</p>' +
+                                    '</div>' +
+                                    '</li>';
+                            }
+                        }
+                        $(".wph-life-ul").append(html);
+                    }
+                }
+			})
+
+
+	</script>
+</body>
+
+
+</html>

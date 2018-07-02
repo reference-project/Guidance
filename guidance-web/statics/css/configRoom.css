@@ -1,0 +1,39 @@
+
+.text-introduce {
+	padding: 0rem 1.5rem;
+	padding-top: 1.16rem;
+	padding-bottom: 0.5rem;
+	background-color: #eff3f2;
+}
+.text-introduce-title {
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #333333;
+	line-height: 0.7rem;
+	margin-bottom: 0.8rem;
+}
+.text-introduce-details {
+	font-size: 0.6rem;
+	line-height: 0.9rem;
+	text-indent: 1rem;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.indent1 {
+	text-indent: 0rem;
+}
+.text-btn {
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	color: #ffffff;
+	margin: 0.2rem 0.1rem 0.2rem 0.1rem;
+	padding: 0.2rem 0.3rem;
+	background-color: #fa7e5a;
+}
+.mobg-bottom {
+	margin-top: 0.5rem;
+}
+
+/*图片展示*/
+

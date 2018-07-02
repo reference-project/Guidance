@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新住院流程</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/HospitalProcessDetails.css" rel="stylesheet"/>
+	<link href="./../../statics/photoswipe/photowipe.css" rel="stylesheet">
+	<script src="./../../statics/photoswipe/photoswipe.js"></script>
+	<script src="./../../statics/js/bigImg.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a" style="position: relative; z-index: 888;">返回</a>
+			</div>
+			新住院流程
+		</header>
+		<!--<div class="container-top" style="position: fixed;top: 0rem; left: 0rem; height: 4rem;width: 100%;background: rgba(000,000,000,0.4);"></div>-->
+		<div class="container-body">
+
+			<div class="process-details">
+				<!--项目流程-->
+				<ul class="mui-bottom-menu">
+					<li class="bottom-menu-group" id="view1">
+						<div class="menu-group-div">
+							<i class="menu-group-i"></i>
+							<span class="menu-group-index">01</span>
+							<span class="menu-group-title">住院登记</span>
+						</div>
+						<p class="menu-group-stuff">1、准备材料：</p>
+						<div class="menu-group-step">
+							<p class="group-step-p">①. 患者本人身份证</p>
+							<p class="group-step-p">②. 入院证</p>
+							<p class="group-step-p">③. 交费</p>
+						</div>
+						<p class="menu-group-stuff">2、实景地图：</p>
+						<div class="menu-group-step" onclick="bigImg('./../../statics/img/mui/process-icon-1.jpg')">
+							<img src="./../../statics/img/mui/process-icon-1.jpg" class="group-img-1">
+							<div class="findStuffImg">
+								<div class="findStuffImgTitle">查看地图</div>
+							</div>
+						</div>
+					</li>
+					<li class="bottom-menu-group" id="view2">
+						<div class="menu-group-div">
+							<i class="menu-group-i"></i>
+							<span class="menu-group-index">02</span>
+							<span class="menu-group-title">到处置室体检</span>
+						</div>
+						<p class="menu-group-stuff">1、准备材料：</p>
+						<div class="menu-group-step">
+							<p class="group-step-p">住院押金条</p>
+						</div>
+						<p class="menu-group-stuff">2、实景地图：</p>
+						<div class="menu-group-step" onclick="bigImg('./../../statics/img/mui/process-icon-2.jpg')">
+							<img src="./../../statics/img/mui/process-icon-2.jpg" class="group-img-1">
+							<div class="findStuffImg">
+								<div class="findStuffImgTitle">查看地图</div>
+							</div>
+						</div>
+					</li>
+					<li class="bottom-menu-group" id="view3">
+						<div class="menu-group-div">
+							<i class="menu-group-i"></i>
+							<span class="menu-group-index">03</span>
+							<span class="menu-group-title">办理无陪护一卡通IC卡</span>
+						</div>
+						<p class="menu-group-stuff">1、准备材料：</p>
+						<div class="menu-group-step">
+							<p class="group-step-p">①. 患者本人身份证</p>
+							<p class="group-step-p">②. 住院押金条</p>
+							<p class="group-step-p">③. 交费</p>
+						</div>
+						<p class="menu-group-stuff">2、实景地图：</p>
+						<div class="menu-group-step" onclick="bigImg('./../../statics/img/mui/process-icon-3.jpg')">
+							<img src="./../../statics/img/mui/process-icon-3.jpg" class="group-img-1">
+							<div class="findStuffImg">
+								<div class="findStuffImgTitle">查看地图</div>
+							</div>
+						</div>
+					</li>
+					<li class="bottom-menu-group" id="view4">
+						<div class="menu-group-div">
+							<i class="menu-group-i"></i>
+							<span class="menu-group-index">04</span>
+							<span class="menu-group-title">到病区护理站登记入住</span>
+						</div>
+						<p class="menu-group-stuff">1、准备材料：</p>
+						<div class="menu-group-step">
+							<p class="group-step-p">①. 住院证</p>
+							<p class="group-step-p">②. 交费单</p>
+							<p class="group-step-p">③. 入院检查单</p>
+						</div>
+						<p class="menu-group-stuff">2、图片：</p>
+						<div class="menu-group-step" onclick="bigImg('./../../statics/img/mui/process-icon-5.jpg')">
+							<img src="./../../statics/img/mui/process-icon-5.jpg" class="group-img-1">
+							<div class="findStuffImg">
+								<div class="findStuffImgTitle">查看图片</div>
+							</div>
+						</div>
+					</li>
+					<li class="bottom-menu-group" id="view5">
+						<div class="menu-group-div">
+							<i class="menu-group-i"></i>
+							<span class="menu-group-index">05</span>
+							<span class="menu-group-title">护工组长接收患者及订陪护等级</span>
+						</div>
+						<p class="menu-group-stuff">1、准备材料：</p>
+						<div class="menu-group-step">
+							<p class="group-step-p">无陪护一卡通IC卡</p>
+						</div>
+						<p class="menu-group-stuff">2、图片：</p>
+						<div class="menu-group-step" onclick="bigImg('./../../statics/img/mui/process-icon-4.jpg')">
+							<img src="./../../statics/img/mui/process-icon-4.jpg" class="group-img-1">
+							<div class="findStuffImg">
+								<div class="findStuffImgTitle">查看图片</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="my-gallery" data-pswp-uid="1" hidden>
+		<figure>
+			<div data-size="670x712">
+				<img  width="100%" id="imgdiv">
+			</div>
+		</figure>
+	</div>
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+
+
+    function bigImg(src){
+        $("#imgdiv").attr("src",src);
+        $("#imgdiv").click();
+    }
+    initPhotoSwipeFromDOM('.my-gallery');
+
+</script>
+
+</html>

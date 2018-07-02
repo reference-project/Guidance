@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.slk.guidance.mapper.WPH_mealmenu.WphMealmenuMapper">
+
+
+
+    <resultMap id="weekmealMap" type="com.slk.guidance.model.WPH_mealmenu.G_weekmeal">
+        <result property="weekname" column="weekname"/>
+        <collection property="meal" ofType="com.slk.guidance.model.WPH_mealmenu.G_weekmeal">
+            <result property="mealtimename" column="mealtimename"></result>
+                <collection property="meal" ofType="com.slk.guidance.model.WPH_mealmenu.G_weekmeal">
+                    <result property="type" column="type"/>
+                    <collection property="meal" ofType="com.slk.guidance.model.WPH_mealmenu.G_weekmeal">
+                        <result property="menuname" column="menuname"/>
+                        <result property="imgs" column="imgs"/>
+                        <result property="depict" column="Depict"/>
+                        <result property="money" column="Money"/>
+                    </collection>
+                </collection>
+        </collection>
+    </resultMap>
+
+
+    <select id="selectWeekMealMenus" resultMap="weekmealMap">
+        SELECT mw.`name` weekname,
+               CASE WHEN mmt.WPH_MealTime=1 THEN '早餐' WHEN mmt.WPH_MealTime=2 THEN '午餐' WHEN mmt.WPH_MealTime=3 THEN '晚餐' END mealtimename,
+               mm.`Name` menuname,mm.imgs,mm.Type,mm.Depict,mm.Money FROM wph.`wph_mealweek` mw
+        LEFT JOIN wph.wph_mealmenu_time mmt ON mmt.WPH_MealWeek = mw.fid
+        LEFT JOIN wph.wph_mealmenu mm ON mm.fid = mmt.WPH_MealMenu_Fid
+        WHERE mm.`Status` = 0
+        ORDER BY mmt.WPH_MealWeek,mmt.WPH_MealTime,mm.Type,mm.fid
+    </select>
+
+    <select id="selectDayMealMenus" parameterType="java.lang.Integer" resultMap="weekmealMap">
+        SELECT mw.`name` weekname,
+               CASE WHEN dt.fid=1 THEN '早餐' WHEN dt.fid=2 THEN '午餐' WHEN dt.fid=3 THEN '晚餐' END mealtimename,
+               mm.`Name` menuname,mm.imgs,mm.Type,mm.Depict,mm.Money
+        FROM wph.`wph_Feedweek` mw
+            LEFT JOIN wph.wph_feedtime dt ON 1=1
+            LEFT JOIN wph.wph_Feedmenu_time mmt ON dt.fid = mmt.wph_feedTime AND mmt.WPH_FeedWeek = mw.fid  AND mmt.wph_feedType_Fid = #{value}
+
+            LEFT JOIN wph.wph_Feedmenu mm ON mm.fid = mmt.WPH_FeedMenu_Fid AND mm.`Status` = 0
+        ORDER BY mw.fid,dt.fid,mm.fid
+    </select>
+
+    <select id="selectFeedCountByTypeId" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        SELECT COUNT(*) FROM wph.wph_feedmenu fm WHERE fm.wph_feedType_Fid = #{value}
+    </select>
+
+    <select id="selectMealByTypeId" parameterType="java.lang.Integer" resultType="com.slk.guidance.model.WPH_mealmenu.WphMealmenu">
+        SELECT * FROM wph.`wph_mealmenu` mm WHERE mm.WPH_MealType_Fid = #{value} AND mm.fid NOT IN (27)  AND mm.`Status` = 0;
+    </select>
+
+    <select id="selectNameBytypeId" parameterType="java.lang.Integer" resultType="java.lang.String" >
+        SELECT t.`Name` FROM wph.wph_feedtype t WHERE t.fid = #{value}
+    </select>
+
+</mapper>

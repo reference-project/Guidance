@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.slk.guidance.mapper.G_worker.GWorkerMapper">
+    <resultMap id="BaseResultMap" type="com.slk.guidance.model.G_worker.GWorker">
+        <id column="id" property="id"/>
+        <result column="wardid" property="wardid"/>
+        <result column="workername" property="workername"/>
+        <result column="phone" property="phone"/>
+    </resultMap>
+
+    <select id="selectWorkerByWardId" resultMap="BaseResultMap">
+        select wphuser.fid as id,
+            userward.WPH_Ward_Fid as wardid,
+            wphuser.`Name` as workername,
+            wphuser.Phone as phone
+        from wph.wph_user wphuser
+            LEFT JOIN wph.wph_user_ward userward
+                on  wphuser.fid=userward.WPH_User_Fid
+            LEFT JOIN wph.wph_user_role userrole
+                on  wphuser.fid=userrole.User_Fid
+        WHERE userrole.Role_Fid=34 and
+              userward.WPH_Ward_Fid=#{wardid}
+    </select>
+</mapper>

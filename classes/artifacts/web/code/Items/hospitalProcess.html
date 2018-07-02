@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新住院流程</title>
+	<script src="../../statics/js/jquery-3.2.1.js"></script>
+	<script src="../../statics/js/mui.js"></script>
+	<script src="../../statics/js/H5Common.js"></script>
+	<link href="../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="../../statics/css/base.css" rel="stylesheet"/>
+	<link href="../../statics/css/public.css" rel="stylesheet"/>
+    <link href="../../statics/css/hospitalProcess.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a href="#" onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			新住院流程
+		</header>
+		<div class="container-body">
+			<!--流程列表-->
+			<ul class="mui-group-ul">
+				<li class="mui-group-li">
+					<div class="mui-group-li-div">
+						<i class="mui-icon-ring"></i>
+						<span class="icon-index icon-index-1"></span>
+						<p class="group-li-text li-text-active">交住院押金</p>
+						<button class="group-li-btn">查看详情</button>
+					</div>
+					<p class="mui-group-li-line"></p>
+				</li>
+				<li class="mui-group-li">
+					<div class="mui-group-li-div">
+						<i class="mui-icon-ring"></i>
+						<span class="icon-index icon-index-2"></span>
+						<p class="group-li-text">到处置室体检</p>
+						<button class="group-li-btn">查看详情</button>
+					</div>
+					<p class="mui-group-li-line"></p>
+				</li>
+				<li class="mui-group-li">
+					<div class="mui-group-li-div">
+						<i class="mui-icon-ring"></i>
+						<span class="icon-index icon-index-3"></span>
+						<p class="group-li-text">开通一卡通</p>
+						<button class="group-li-btn">查看详情</button>
+					</div>
+					<p class="mui-group-li-line"></p>
+				</li>
+				<li class="mui-group-li">
+					<div class="mui-group-li-div">
+						<i class="mui-icon-ring"></i>
+						<span class="icon-index icon-index-4"></span>
+						<p class="group-li-text">去病区办理入科</p>
+						<button class="group-li-btn">查看详情</button>
+					</div>
+				</li>
+			</ul>
+			<!--入院须知-->
+			<div class="mui-notice">入院须知</div>
+		</div>
+
+	</div>
+	
+	<!-- 底部弹出菜单 -->
+	<div id="bottomMenu" class="mui-popover mui-popover-bottom mui-popover-action">
+	    <ul class="mui-bottomMenu">
+			<li class="mui-bottomMenu-li">
+				<h5 class="table-view-title">1、准备资料:</h5>
+				<p class="table-view-details">请携带身份证、银行卡(可微信/支付宝),其中挂号费:¥20,预约费¥20，携带挂号单以及在大厅柜台填写的说明,就医证明、医生单张等等,请携带齐全，并且带足够的现金，个别地方只收现金，尽请谅解！祝您就业愉快！</p>
+			</li>
+			<li class="mui-bottomMenu-li">
+				<h5 class="table-view-title">2、实景地图</h5>
+				<img class="realMap-img" src="../../statics/img/mui/realMap-img.png" />
+			</li>
+	    </ul>
+	</div>
+	
+	
+	
+</body>
+
+
+<script type="text/javascript">
+	
+
+	
+	//点击详情弹出菜单
+	$(".group-li-btn").click(function () {
+		mui("#bottomMenu").popover('toggle');
+	});
+	
+
+</script>
+
+</html>

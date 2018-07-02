@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>手术接送服务</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/wphLifeNurse.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+			</div>
+			手术接送服务
+		</header>
+		<div class="container-body">
+
+			<div class="wph-life-img">
+				<img src="./../../statics/img/mui/service-img-7.jpg" class="icon-life-img">
+			</div>
+			<!--服务列表-->
+			<div class="wph-life-box">
+				<ul class="wph-life-ul">
+					<li class="wph-life-li">
+						<div class="wph-life-title">
+							<i class="wph-life-line life-line1"></i>
+							<label class="wph-life-label">服务介绍</label>
+						</div>
+						<div class="wph-life-details">
+							<p class="wph-life-info left-indent" id="info">病人住院期间有时需要暂时离开病房去手术或者到辅助科室进行检查，如B超、X射线、心电图等，但由于病情不能自如活动，做为外送对人员要给与帮助，常用的方法有轮椅法、平车运送法、担架法。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+        $(function(){
+            var result=showHtml(url + "/phone/service/selectServiceById/"+4,"");
+            if(result.gService!=null){
+                $("#info").text(result.gService.info);
+            }
+        })
+	</script>
+</body>
+
+
+</html>

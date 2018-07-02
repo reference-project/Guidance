@@ -1,0 +1,54 @@
+.container-body {
+	position: fixed;
+	top: 1.78rem;
+	left: 0rem;
+	width: 15rem;
+}
+.icon-wph-service {
+	position: absolute;
+	top: 2rem;
+	left: 0.3rem;
+	width: 14.208rem;
+	height: 17.408rem;
+}
+.wph-service-content {
+	margin-top: 4.5rem;
+	position: relative;
+	padding-top: 0.8rem;
+	margin-left: 1.36rem;
+	width: 12.28rem;
+	border-radius: 0.4rem;
+	background: rgba(255,255,255,0.7);
+}
+
+.wph-service-content-title {
+	font-size: 0.8rem;
+	color: #187e80;
+	line-height: 0.8rem;
+	text-align: center;
+	margin-bottom: 0.4rem;
+}
+.wph-service-content-details {
+	padding: 0rem 0.8rem;
+	font-size: 0.6rem;
+	color: #333333;
+	line-height: 1rem;
+	text-indent: 1rem;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.wph-service-details {
+	width: 100%;
+	padding: 0.6rem 0rem;
+	text-align: center;
+}
+.service-details-btn {
+	width: 11.2rem;
+	height: 1.7rem;
+	border-radius: 0.8rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 0.2rem;
+	background: linear-gradient(to right,#f9835b,#fc5e55);
+}

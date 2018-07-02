@@ -1,0 +1,138 @@
+
+/*公共页面布局------------*/
+.container {
+	width: 100%;
+	height: 26.68rem;
+	background-color: #eff3f2;
+}
+.top-bar {
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 0.8rem;
+	background-color: #fa7959;
+}
+/*头部*/
+.container-top {
+	position: fixed;
+	top: 0.8rem;
+	left: 0rem;
+	text-align: center;
+	width: 100%;
+	height: 1.78rem;
+	line-height: 1.78rem;
+	padding: 0 0.3rem;
+	font-size: 0.72rem;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #fa7959;
+}
+.mui-pull-left {
+
+}
+.icon-back {
+	position: absolute;
+	top: 0.4rem;
+	left: 0.32rem;
+	background: url(../../statics/img/mui/icon-back.png) no-repeat;
+	width: 0.52rem;
+	height: 0.88rem;
+	background-size: 100% 100%;
+}
+.top-title-a {
+	position: absolute;
+	top: 0rem;
+	left: 1.38rem;
+	font-weight: 400;
+	font-size: 0.6rem;
+	color: #ffffff;
+}
+/*身体*/
+.container-body {
+	position: fixed;
+	top: 2.56rem;
+	left: 0rem;
+	width: 100%;
+	height: 22.08rem;
+	overflow-y: scroll;
+}
+/*服务介绍*/
+.serviceIntroduce {
+	position: relative;
+	width: 100%;
+	height: 3.6rem;
+	border-top: 0.02rem solid #ffffff;
+	background-color: #fa7957;
+}
+.serviceIntroduce-title {
+	padding: 0.64rem 0rem 0rem 1.34rem;
+	font-size: 0.68rem;
+	color: #ffffff;
+	font-weight: 700;
+}
+.serviceIntroduce-describe {
+	position: absolute;
+	top: 1.74rem;
+	left: 0.6rem;
+	width: 13.8rem;
+	height: 5.46rem;
+	border-radius: 0.1rem;
+	background-color: #ffffff;
+}
+.serviceIntroduce-details {
+	width: 100%;
+	height: 100%;
+	padding: 0.64rem 0.96rem 0rem 0.66rem;
+	text-indent: 0.6rem;
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+	color: #666666;
+}
+.demarcation-line {
+	width: 100%;
+	height: 0.2rem;
+	margin-top: 4.4rem;
+	margin-bottom: 0.8rem;
+	background-color: #e9eceb;
+}
+/*列表*/
+.service-list {
+	width: 100%;
+	padding: 0rem 0.6rem;
+}
+.service-list-group {
+	float: left;
+	margin-bottom: 1.32rem;
+}
+.service-list-group:nth-child(2n+1){
+	margin-right: 1.32rem;
+}
+.service-name {
+	width: 6.22rem;
+	height: 1.68rem;
+	line-height: 1.68rem;
+	text-align: center;
+	font-size: 0.72rem;
+	border-radius: 0.16rem;
+}
+.service-name-1 {
+	color: #5ae8f9;
+	border: 0.04rem solid #5ae8f9;
+}
+.service-name-2 {
+	color: #965af9;
+	border: 0.04rem solid #965af9;
+}
+.service-name-3 {
+	color: #f89b5a;
+	border: 0.04rem solid #f89b5a;
+}
+.service-name-4 {
+	color: #4fd052;
+	border: 0.04rem solid #4fd052;
+}
+.service-name-5 {
+	color: #f95ace;
+	border: 0.04rem solid #f95ace;
+}

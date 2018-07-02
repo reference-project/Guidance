@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>一卡通开卡</title>
+	<script src="../statics/js/jquery-3.2.1.js"></script>
+	<script src="../statics/js/mui.js"></script>
+	<script src="../statics/js/H5Common.js"></script>
+	<link href="../statics/css/mui.css" rel="stylesheet"/>
+	<link href="../statics/css/base.css" rel="stylesheet"/>
+	<link href="../statics/css/public.css" rel="stylesheet"/>
+    <link href="../statics/css/oneCard.css" rel="stylesheet"/>
+	<link href="../statics/photoswipe/photowipe.css" rel="stylesheet">
+	<script src="../statics/photoswipe/photoswipe.js"></script>
+	<script src="../statics/js/bigImg.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a onclick="javascript :history.back(-1);"  class="top-title-a">返回</a>
+			</div>
+			一卡通开卡
+		</header>
+
+		<div class="container-body">
+			<ul class="card-group-ul">
+				<li class="card-group-li">
+					<div class="card-group-title">
+						<div class="order-list-index">1</div>
+						<span class="card-group-name">开卡地点</span>
+					</div>
+					<div class="card-group-img my-gallery" data-pswp-uid="1" onclick="bigImg('../statics/img/mui/process-icon-2.jpg')">
+						<figure>
+							<div data-size="670x712">
+								<img class="map-img" src="../statics/img/mui/process-icon-2.jpg" id="imgdiv">
+							</div>
+						</figure>
+					</div>
+				</li>
+				<li class="card-group-li">
+					<div class="card-group-title">
+						<div class="order-list-index">2</div>
+						<span class="card-group-name">开通一卡通需备材料</span>
+					</div>
+					<p class="card-certificates">①有效身份证件</p>
+					<p class="card-certificates">②住院押金条</p>
+					<p class="card-certificates">③交费</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+
+
+<script type="text/javascript">
+    function bigImg(src){
+        $("#imgdiv").click();
+    }
+    initPhotoSwipeFromDOM('.my-gallery');
+
+</script>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>护理服务</title>
+    <script src="../../statics/js/mui.js"></script>
+    <link href="../../statics/css/mui.css" rel="stylesheet"/>
+    <link href="../../statics/css/base.css" rel="stylesheet"/>
+    <link href="../../statics/css/public.css" rel="stylesheet"/>
+    <link href="../../statics/css/oneToone.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+
+<div class="position">
+    <div class="top-bar"></div>
+    <header class="top-title">
+        <div class="mui-pull-left">
+            <span class="mui-icon icon-back"></span>
+            <a href="#" onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+        </div>
+        护理服务
+    </header>
+    <!--图片列表-->
+    <ul class="mui-group-ul">
+        <li class="mui-group-li">
+            <div class="mui-group-li-title">
+                <span class="group-li-title-icon"></span>
+                <p class="group-li-title-title">无陪护生活护理</p>
+            </div>
+            <div class="mui-group-li-content">
+                <span class="group-li-content-img"></span>
+                <p class="group-li-content-describe">协助完成病人日常生活护理，如洗头、洗脚、修剪指甲等;协助整理病人床铺的整洁卫生;协助翻身、起床、体位变换等;协助大小便护理;协助肢体功能锻炼。</p>
+                <span class="mui-icon-mark"></span>
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+    //屏幕适配
+    (function() {
+        var html = document.documentElement;
+        var width = html.getBoundingClientRect().width;
+        html.style.fontSize = width / 15 + 'px';
+        //至于除数15可自行设置
+        //1rem=50;
+    })()
+
+
+
+</script>
+
+</html>

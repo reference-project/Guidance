@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title id="MealTitle">普通膳食</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+	<link href="./../../statics/css/specailMeal.css" rel="stylesheet"/>
+	<script type="text/javascript" charset="utf-8">
+        mui.init();
+	</script>
+</head>
+<body>
+
+<div class="container">
+	<div class="top-bar"></div>
+	<header class="container-top">
+		<div class="mui-pull-left">
+			<span class="mui-icon icon-back"></span>
+			<a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+		</div>
+		<span id="titlespan"></span>
+	</header>
+	<div class="container-body">
+
+		<!--	星期列表 -->
+        <ol class="week-list" id="weeks"></ol>
+
+        <!--今天，明天-->
+		<!--<ol class="week-list" >
+			<span class="ordinary-calendar" onclick="ShowBtn();"></span>
+			<div class="ordinary-btn"></div>
+		</ol>-->
+
+		<!--早中晚-->
+		<div class="meal-time">
+			<ul class="meal-time-ul"></ul>
+		</div>
+
+		<!--小方框提示信息-->
+		<div class="meal-info">
+			以下显示为套餐菜单&nbsp;&nbsp;注：主食为米饭或馒头
+		</div>
+
+		<!--餐类列表-->
+		<div class="meal-list">
+			<!--侧边栏分类-->
+			<ul class="meal-sidebar"></ul>
+
+			<!--右边详情-->
+			<ul class="ordinary-meal-details"></ul>
+
+		</div>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+    var typeId = getParameter("typeId");
+    var result = showHtml(url+"mealmenu/selectMenusById/"+typeId,"");
+    if(result.flag){
+        $("#titlespan").html(result.titleName);
+        $("#MealTitle").html(result.titleName);
+        var data = result.mealMenus;
+        var weeks="";
+        for(var i in data){
+            var flag = showTime()==data[i].weekname;
+            weeks += '<li class="week-list-li '+(flag?"week-list-li-active":"")+'" id="weekid'+i+'" onclick="selectMealByWeek('+JSON.stringify(data[i]).replace(/\"/g,"'")+');">' +
+                '<p class="week-list-name">'+"周"+data[i].weekname.substr(2)+'</p>' +
+                '<i class="week-list-line"></i>' +
+                '</li>';
+            if(flag){
+                selectMealByWeek(data[i]);
+            }
+        }
+        $("#weeks").html(weeks);
+    }else{
+        console.log(result.message);
+    }
+
+
+    function selectMealByWeek(obj) {
+        //早午晚 餐
+        var mealtimes = "";
+        var mealtime = obj.meal;
+        for(var a in mealtime){
+            mealtimes +=
+                '<li class="meal-time-li '+(a==0?"time-li-active":"")+'" onclick="selectMealByTime('+JSON.stringify(mealtime[a]).replace(/\"/g,"'")+',this);">'+mealtime[a].mealtimename+'</li>';
+
+            if(a==0){
+                selectMealByTime(mealtime[a],null);
+            }
+        }
+        $(".meal-time-ul").html(mealtimes);
+    }
+
+
+    function selectMealByTime(obj,current) {
+
+        //当为早餐时提示信息隐藏
+        if(obj.mealtimename == "早餐"){
+            $(".meal-info").css("display","none");
+        }else{
+            $(".meal-info").css("display","block");
+        }
+
+
+        $(".ordinary-meal-li").remove();
+        if(null!=current){
+            $(".meal-time-li").removeClass("time-li-active");
+            current.className += " time-li-active";
+        }
+        var meals = obj.meal;
+        var mealtype = "";
+        for(var b in meals){
+            var name = "";
+            if (meals[b].type==1){
+                name = "炒菜";
+            }else if(meals[b].type==2){
+                name ="面食";
+            }else {
+                name = "粥类";
+            }
+            mealtype+=
+                '<li class="meal-sidebar-li '+(b==0?"sidebar-li-active":"")+'" onclick="selectMealByType('+JSON.stringify(meals[b]).replace(/\"/g,"'")+',this);" >'+
+                '<img class="meal-sidebar-img" src="./../../statics/img/mui/icon-soup-'+meals[b].type+'.png">'+
+                '<span class="meal-sidebar-span">'+name+'</span>'+
+                '</li>';
+            if(b==0){
+                selectMealByType(meals[b],null);
+            }
+        }
+        //$(".meal-sidebar").html(mealtype);
+    }
+
+
+    function selectMealByType(obj,current) {
+        if(null!=current){
+            $(".meal-sidebar-li").removeClass("sidebar-li-active");
+            current.className += " sidebar-li-active";
+        }
+
+        var meals = obj.meal;
+        var mealdetails = "";
+        for(var b in meals){
+            if(null == meals[b].depict)meals[b].depict = "";
+            mealdetails+=
+                '<li class="ordinary-meal-li">'+
+                '<img class="ordinary-meal-img" src="'+meals[b].imgs+'">'+
+                '<h4 class="ordinary-meal-title">'+meals[b].menuname+'</h4>'+
+                '<div class="ordinary-meal-food">'+
+                '<label class="ordinary-food-label">食材:</label>'+
+                '<p class="ordinary-food-p">'+meals[b].depict+'</p>'+
+                '</div>'+
+                '<div class="ordinary-li-love">' +
+					'<label class="ordinary-love-label">喜欢:</label>' +
+					'<ol class="ordinary-love-p">' +
+						'<li class="ordinary-love-p-li">' +
+							'<i class="ordinary-love-p-i"></i>' +
+						'</li>' +
+						'<li class="ordinary-love-p-li">' +
+							'<i class="ordinary-love-p-i"></i>' +
+						'</li>' +
+						'<li class="ordinary-love-p-li">' +
+							'<i class="ordinary-love-p-i"></i>' +
+						'</li>' +
+						'<li class="ordinary-love-p-li">' +
+							'<i class="ordinary-love-p-i"></i>' +
+						'</li>' +
+						'<li class="ordinary-love-p-li">' +
+							'<i class="ordinary-love-p-i"></i>' +
+						'</li>' +
+					'</ol>' +
+                '</div>'+
+//                '<div class="ordinary-li-price">'+
+//                '<label class="ordinary-price-label">价格:</label>'+
+//                '<p class="ordinary-price-p">'+meals[b].money+'</p>'+
+//                '</div>'+
+                '</li>'
+        }
+        $(".ordinary-meal-details").html(mealdetails);
+    }
+
+
+    function getParameter(value) {
+        var reg = new RegExp("(^|&)"+value+"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        return r!=null?unescape(r[2]):null;
+    }
+
+    //点击日历图标显示今天明天
+    $(".ordinary-btn").css({right:"2.2rem"});
+	var flag;
+    function ShowBtn() {
+        if(flag){
+            flag = false;
+            $(".ordinary-btn").css({right:"-6rem"});
+		}else{
+            flag = true;
+            $(".ordinary-btn").css({right:"2.2rem"});
+		}
+    }
+
+
+    //周几-按钮选中
+    $(".week-list-li").click(function () {
+        $(".week-list-li").removeClass("week-list-li-active");
+        $(this).addClass("week-list-li-active");
+    })
+
+    //早中晚
+    $(".meal-time-li").click(function () {
+        $(".meal-time-li").removeClass("time-li-active");
+        $(this).addClass("time-li-active");
+    })
+
+    //获取当前星期几
+    function showTime(){
+        var show_day=new Array('星期一','星期二','星期三','星期四','星期五','星期六','星期日');
+        var time=new Date();
+        var day=time.getDay();
+        return show_day[day-1];
+    }
+
+
+
+
+
+
+    //侧边栏菜品
+    $(".meal-sidebar-li").click(function () {
+        $(".meal-sidebar-li").removeClass("sidebar-li-active");
+        $(this).addClass("sidebar-li-active");
+    })
+
+    //食材超出部分显示
+    document.body.addEventListener('touchstart', function () {
+        $(".ordinary-food-p").hover(function(){
+            $(this).removeClass("ordinary-food-p").addClass("showAll");
+        },function(){
+            $(this).removeClass("showAll").addClass("ordinary-food-p");
+        })
+    });
+
+
+
+</script>
+</body>
+
+
+</html>

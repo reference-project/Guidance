@@ -1,0 +1,220 @@
+
+
+/*公共页面布局------------*/
+.container {
+    width: 100%;
+    height: 26.68rem;
+    background-color: #eff3f2;
+}
+.top-bar {
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 0.8rem;
+    background-color: #fa7959;
+}
+/*头部*/
+.container-top {
+    position: fixed;
+    top: 0.8rem;
+    left: 0rem;
+    text-align: center;
+    width: 100%;
+    height: 1.78rem;
+    line-height: 1.78rem;
+    padding: 0 0.3rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #fa7959;
+}
+.mui-pull-left {
+
+}
+.icon-back {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.32rem;
+    background: url(../../statics/img/mui/icon-back.png) no-repeat;
+    width: 0.52rem;
+    height: 0.88rem;
+    background-size: 100% 100%;
+}
+.top-title-a {
+    position: absolute;
+    top: 0rem;
+    left: 1.38rem;
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+/*身体*/
+.container-body {
+    position: fixed;
+    top: 2.56rem;
+    left: 0rem;
+    width: 100%;
+    height: 22.08rem;
+    overflow-y: scroll;
+}
+/*表头更长时候*/
+.container-body-1 {
+    position: fixed;
+    top: 6.16rem;
+    left: 0rem;
+    width: 100%;
+    height: 18.48rem;
+    overflow-y: scroll;
+}
+
+/*底部链接*/
+.mui-bar-tab .mui-tab-item {
+    height: 1.96rem;
+    background-color: #ffffff;
+}
+.mui-bar{
+    border-bottom: 0;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.mui-bar-tab .mui-tab-item .mui-icon ~ .mui-tab-label {
+    font-size: 0.4rem;
+    color: #666666;
+}
+.icon-shopping {
+    background: url(../../statics/img/mui/icon-shopping.png) no-repeat;
+    background-size: 100% 100%;
+}
+.icon-one-card {
+    background: url(../../statics/img/mui/icon-one-card.png) no-repeat;
+    background-size: 100% 100%;
+}
+.icon-find-nurse {
+    background: url(../../statics/img/mui/icon-find-nurse.png) no-repeat;
+    background-size: 100% 100%;
+}
+.mui-tab-label {
+    color: #666666;
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+    top: 0.2rem;
+}
+
+
+/*底部弹出菜单*/
+.mui-bottomMenu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    padding: 1.1rem 1.4rem 0rem 1rem;
+    background-color: #ffffff;
+}
+.mui-bottomMenu-li {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.9rem;
+}
+.table-view-title {
+    text-align: left;
+    font-size: 0.66rem;
+    color: #666666;
+}
+.table-view-details {
+    width: 100%;
+    padding: 0 0.9rem;
+    text-align: left;
+    font-size: 0.52rem;
+    line-height: 0.62rem;
+    color: #666666;
+}
+.table-view-details-1 {
+    width: 100%;
+    padding: 0 0.9rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 0.52rem;
+    line-height: 1rem;
+    color: #666666;
+}
+.table-view-details-2 {
+    position: relative;
+    width: 100%;
+    padding: 0 0.9rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 0.52rem;
+    line-height: 0.86rem;
+    color: #666666;
+}
+.realMap-img {
+    width: 11.68rem;
+    height: 4.86rem;
+    margin-left: 0.9rem;
+    margin-top: 0.28rem;
+}
+.free-red {
+    font-size: 0.7rem;
+    color: #da2d2f;
+}
+
+/*红色序号*/
+.meal-list-index {
+    position: absolute;
+    top: 0.1rem;
+    left: -0.6rem;
+    width: 0.45rem;
+    height: 0.45rem;
+    line-height: 0.45rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0.35rem;
+    color: #ffffff;
+    background-color: red;
+}
+.meal-list-index:before {
+    position: absolute;
+    top: -0.15rem;
+    left: -0.15rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    content: "";
+    border-radius: 50%;
+    border-top: 0.04rem solid red;
+    border-left: 0.04rem solid red;
+    background-size: 100% 100%;
+}
+.meal-list-order {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.4rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0.35rem;
+    color: #666666;
+    border: 0.04rem solid #cccccc;
+    background-color: #ffffff;
+}
+
+.meal-list-index-1 {
+    position: absolute;
+    top: 0.2rem;
+    left: -0.2rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    line-height: 0.45rem;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0.35rem;
+    color: #ffffff;
+    background-color: red;
+}

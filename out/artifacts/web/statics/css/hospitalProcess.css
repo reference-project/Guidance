@@ -1,0 +1,151 @@
+.container-body-2 {
+	margin-top: 1.78rem;
+	margin-bottom: 1.98rem;
+	width: 100%;
+	height: 22.92rem;
+	overflow-y: scroll;
+}
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 0.8rem;
+}
+.mui-group-li {
+	position: relative;
+	margin-bottom: 0.4rem;
+	width: 100%;
+}
+.mui-group-li-div {
+	position: relative;
+	width: 100%;
+	height: 1.84rem;
+}
+.mui-icon-ring {
+	position: absolute;
+	top: 0rem;
+	left: 2.24rem;
+	background: url(../../statics/img/mui/mui-icon-ring.png) no-repeat;
+	width: 0.56rem;
+	height: 0.56rem;
+	background-size: 100% 100%;
+}
+.icon-index-1 {
+	background: url(../../statics/img/mui/icon-index-1.png) no-repeat;
+}
+.icon-index-2 {
+	background: url(../../statics/img/mui/icon-index-2.png) no-repeat;
+}
+.icon-index-3 {
+	background: url(../../statics/img/mui/icon-index-3.png) no-repeat;
+}
+.icon-index-4 {
+	background: url(../../statics/img/mui/icon-index-4.png) no-repeat;
+}
+.icon-index-5 {
+	background: url(../../statics/img/mui/icon-index-5.png) no-repeat;
+}
+.icon-index {
+	position: absolute;
+	top: 0.9rem;
+	left: 1.92rem;
+	width: 1.18rem;
+	height: 0.9rem;
+	background-size: 100% 100%;
+}
+.group-li-text {
+	position: absolute;
+	left: 3.5rem;
+	bottom: 0rem;
+	width: 4rem;
+	line-height: 0.6rem;
+	text-align: left;
+	font-size: 0.6rem;
+	color: #999999;
+}
+.group-li-btn {
+	position: absolute;
+	top: 1rem;
+	left: 8rem;
+	width: 2.96rem;
+	height: 0.74rem;
+	line-height: 0.74rem;
+	font-size: 0.4rem;
+	border-radius: 0.4rem;
+	border: 0.04rem solid #fa7e5a;
+	color: #666666;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.mui-group-li-line {
+	margin-left: 2.54rem;
+	margin-top: 0.28rem;
+	height: 2.6rem;
+	width: 0.04rem;
+	background-color: #fbc1ad;
+}
+/*入院须知*/
+.mui-notice {
+	width: 11.26rem;
+	height: 1.68rem;
+	line-height: 1.68rem;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.72rem;
+	margin: 1.08rem 0rem 0.6rem 1.6rem;
+	border-radius: 1rem;
+	background: linear-gradient(to right, #f98258,#fb5d52);
+}
+
+/*文字高亮显示*/
+.li-text-active {
+	color: #333333;
+}
+
+/*去掉下划线*/
+.mui-table-view .mui-table-view-cell:before
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 0px;
+    color: red;
+}
+
+/*底部弹出菜单*/
+.mui-bottomMenu {
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+	padding: 1.1rem 1.4rem 0rem 1rem;
+	background-color: #ffffff;
+}
+.mui-bottomMenu-li {
+	width: 100%;
+	margin-bottom: 0.9rem;
+}
+.table-view-title {
+	text-align: left;
+	font-size: 0.66rem;
+	color: #666666;
+}
+.table-view-details {
+	width: 100%;
+	padding: 0 0.9rem;
+	text-align: left;
+	font-size: 0.52rem;
+	line-height: 0.62rem;
+	color: #666666;
+}
+.realMap-img {
+	width: 11.68rem;
+	height: 4.86rem;
+	margin-left: 0.9rem;
+	margin-top: 0.28rem;
+}

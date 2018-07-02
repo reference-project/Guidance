@@ -1,0 +1,139 @@
+/*.container {*/
+	/*width: 100%;*/
+	/*height: 24.28rem;*/
+	/*background-color: #eff3f2;*/
+/*}*/
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 0.72rem;
+}
+.mui-group-li-1 {
+	background: url(./../../statics/img/mui/mui-group-li-1.png) no-repeat;
+}
+.mui-group-li-2 {
+	background: url(./../../statics/img/mui/mui-group-li-2.png) no-repeat;
+}
+.mui-group-li-3 {
+	background: url(./../../statics/img/mui/mui-group-li-3.png) no-repeat;
+}
+.mui-group-li-4 {
+	background: url(./../../statics/img/mui/mui-group-li-4.png) no-repeat;
+}
+.mui-group-li-5 {
+	background: url(./../../statics/img/mui/mui-group-li-5.png) no-repeat;
+}
+.mui-group-li {
+	display: block;
+	position: relative;
+	/*text-align: center;*/
+	border-radius: 0.2rem;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	height: 3rem;
+	background-size: 100% 100%;
+}
+
+.icon-i-1 {
+	position: absolute;
+	top: 0.76rem;
+	left: 1.1rem;
+	background: url("./../../statics/img/mui/icon-i-1.png") no-repeat;
+	width: 1.2rem;
+	height: 1.56rem;
+	background-size: 100% 100%;
+}
+.icon-i-2 {
+	position: absolute;
+	top: 0.9rem;
+	left: 1.1rem;
+	background: url("./../../statics/img/mui/icon-i-2.png") no-repeat;
+	width: 1.3rem;
+	height: 1.26rem;
+	background-size: 100% 100%;
+}
+.icon-i-3 {
+	position: absolute;
+	top: 1.06rem;
+	left: 1.02rem;
+	background: url("./../../statics/img/mui/icon-i-3.png") no-repeat;
+	width: 1.38rem;
+	height: 1.06rem;
+	background-size: 100% 100%;
+}
+.icon-i-4 {
+	position: absolute;
+	top: 0.9rem;
+	left: 0.88rem;
+	background: url("./../../statics/img/mui/icon-i-4.png") no-repeat;
+	width: 1.66rem;
+	height: 1.26rem;
+	background-size: 100% 100%;
+}
+.icon-i-5 {
+	position: absolute;
+	top: 0.8rem;
+	left: 1.1rem;
+	background: url("./../../statics/img/mui/icon-i-5.png") no-repeat;
+	width: 1.26rem;
+	height: 1.46rem;
+	background-size: 100% 100%;
+}
+.icon-index-1 {
+	 background: url("./../../statics/img/mui/icon-index-1.png") no-repeat;
+ }
+.icon-index-2 {
+	background: url("./../../statics/img/mui/icon-index-2.png") no-repeat;
+}
+.icon-index-3 {
+	background: url("./../../statics/img/mui/icon-index-3.png") no-repeat;
+}
+.icon-index-4 {
+	background: url("./../../statics/img/mui/icon-index-4.png") no-repeat;
+}
+.icon-index-5 {
+	background: url("./../../statics/img/mui/icon-index-5.png") no-repeat;
+}
+.icon-li-index {
+	position: absolute;
+	top: 0.8rem;
+	left: 3.4rem;
+	width: 0.8rem;
+	height: 0.7rem;
+	background-size: 100%;
+}
+.group-li-title {
+	position: absolute;
+	top: 0.76rem;
+	left: 4.7rem;
+	font-size: 0.5rem;
+	color: #ffffff;
+}
+.li-title-english {
+	position: absolute;
+	top: 1.75rem;
+	left: 3.4rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	color: #ffffff;
+	width: 75%;
+}
+
+.hospitalNotice {
+	width: 100%;
+	padding: 0.5rem 0rem;
+	text-align: center;
+}
+.hospital-btn {
+	width: 11.2rem;
+	height: 1.7rem;
+	border-radius: 0.8rem;
+	font-size: 0.6rem;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 0.2rem;
+	background: linear-gradient(to right,#f9835b,#fc5e55);
+}
+
+

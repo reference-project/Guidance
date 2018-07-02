@@ -1,0 +1,173 @@
+<!doctype html>
+<!--suppress ALL -->
+<head>
+	<title>二维码管理</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<link rel="import" href="../../statics/include-header.html">
+	<link rel="import" href="../../statics/include-JS.html">
+</head>
+<body>
+<abbr>
+
+	<div id="body1">
+		<button type="button" id="openAddTowCode"  class="btn btn-wide btn-primary" data-toggle="modal" data-target="#md-modal"><!--data-toggle="modal" data-target="#md-modal"-->
+			二维码添加
+		</button>
+		<br/>
+		<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-labelledby="modal-error-label">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header state modal-danger">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="modal-error-label"><i class="fa fa-warning"></i>删除二维码</h4>
+					</div>
+					<div class="modal-body">
+						请您确定要删除此数据吗？
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="delTowCode()">确定</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade " id="md-modal" tabindex="-1" role="dialog" aria-labelledby="modal-default-label">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header state modal-primary">
+						<h4 class="modal-title" id="modal-default-label">二维码信息</h4>
+					</div>
+					<div class="modal-body">
+						<div class="col-md-12">
+							<div class="panel">
+								<div class="panel-content">
+									<div class="row">
+										<div class="col-sm-12">
+											<form id="TowCodeForm" class="form-horizontal form-stripe">
+												<h6 class="mb-xlg text-center"><b>二维码信息</b></h6>
+												<input type="hidden" name="id" />
+												<div class="form-group">
+													<label class="col-sm-2 control-label">描述</label>
+													<div class="col-sm-10">
+														<textarea class="form-control" rows="2" data-id="notnull" id="descr" name="descr" placeholder="请输入您的描述"></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-sm-2 control-label">备注</label>
+													<div class="col-sm-10">
+														<input type="text" class="form-control" data-id="notnull" name="remark" id="remark" placeholder="请输入您的备注" />
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-sm-2 control-label">URL</label>
+													<div class="col-sm-10">
+														<input type="text" class="form-control" data-id="notnull" id="path" name="path" placeholder="请输入您的路径"  />
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="reminder-info"></div>
+						<button onclick="TowCodeSubmit()" type="button" class="btn btn-primary">确定</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row animated fadeInRight">
+			<div class="col-sm-12">
+				<div class="panel">
+					<div class="panel-content">
+						<div class="table-responsive">
+							<table id="sqz" class="data-table table table-striped nowrap table-hover" cellspacing="0" width="100%">
+								<thead>
+								<tr>
+									<th name="remark">备注</th>
+									<th name="path">路径</th>
+									<th name="descr">描述</th>
+									<th name="url">图片</th>
+									<th name="cz">操作</th>
+								</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!--显示图片-->
+	<div id="ImgBox" style="position: absolute;top: 30%;left: 30%;z-index: 999999;">
+
+	</div>
+
+	<script type="text/javascript">
+        $(function() {
+            var result=showHtml(url+"qrCode/getQrCodeListAll","");
+            console.log(result.qrList);
+            var data = result.qrList;
+            for(var p in data){//遍历json数组时，这么写p为索引，0,1
+
+                data[p].cz='<button class="btn btn-wide btn-o btn-info"  data-toggle="modal"   data-target="#md-modal" onclick="upTowCode('+JSON.stringify(data[p]).replace(/"/g, '&quot;')+')">修改</button>'+
+                    '<button class="btn btn-wide btn-o btn-danger" data-toggle="modal"   data-target="#error-modal" onclick="setdel('+data[p].id+')" >删除</button>'
+
+                data[p].url='<a class="imgs" href="'+data[p].url+'" target="_blank"  onmouseover="lookImg('+data[p].id+',\''+data[p].url+'\',0);" onmouseout="lookImg('+data[p].id+',\''+data[p].url+'\',1);">' +'查看' +
+//                    '<img class="imgs" id="imgs'+data[p].id+'" src="'+data[p].url+'" hidden="hidden" >'+
+                    '</a>';
+            }
+
+            ShowDataTable("sqz",data,"id");
+        });
+
+        var TowCodeId;
+        function setdel(fid){
+            TowCodeId=fid;
+        }
+        //修改用户前操作，如数据渲染，环境准备（清空表单加载效果等）
+        function upTowCode(TowCode){
+            console.log(TowCode);
+            $("#TowCodeForm").clearfrom();
+            $("#TowCodeForm").setForm(TowCode);
+        }
+
+        $("#openAddTowCode").click(function(){
+            $("#TowCodeForm").clearfrom();
+            $("#path").val("http://xj.tjkelin.com.cn/guidance");
+        })
+        //添加修改提交
+        function TowCodeSubmit(){
+            var TowCodeList = $("#TowCodeForm").serializeJson();
+            if(check_Form(TowCodeForm)){
+                messagePrompt(showHtml(url+"qrCode/setQrCode",TowCodeList));
+                showHtmlRight('./code/Qrcode/TowCodeManage.html');
+            }
+        }
+        //删除方法
+        function delTowCode (){
+            messagePrompt(showHtml(url+"qrCode/deleteQrCodeById/"+TowCodeId,""));
+            showHtmlRight('./code/Qrcode/TowCodeManage.html');
+        }
+
+        //图片预览
+        function lookImg(id,url,state){
+            if(state == 0){
+                $("#ImgBox").append('<img id="ImgBox'+id+'"  src="'+url+'" style="width: 300px;height: 300px;">');
+			}else{
+                $("#ImgBox"+id).remove();
+			}
+
+        }
+
+	</script>
+</abbr>
+</body>
+</html>

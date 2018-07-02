@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>护理服务</title>
+    <script src="./../../../statics/js/jquery-3.2.1.js"></script>
+    <script src="./../../../statics/js/mui.js"></script>
+    <script src="./../../../statics/js/H5Common.js"></script>
+    <link href="./../../../statics/css/mui.css" rel="stylesheet"/>
+    <link href="./../../../statics/css/base.css" rel="stylesheet"/>
+    <link href="./../../../statics/css/public.css" rel="stylesheet"/>
+    <link href="./../../../statics/css/oneToone.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <div class="top-bar"></div>
+    <header class="container-top">
+        <div class="mui-pull-left">
+            <span class="mui-icon icon-back"></span>
+            <a  onclick="javascript :history.back(-1);" class="top-title-a">返回</a>
+        </div>
+        护理服务
+    </header>
+    <div class="container-body">
+        <!--图片列表-->
+        <ul class="mui-group-ul">
+            <li class="mui-group-li-1">
+                <div class="mui-group-li-title">
+                    <span class="group-li-title-icon-nursing"></span>
+                    <p class="group-li-title-title">无陪护生活护理</p>
+                </div>
+                <div class="mui-group-li-content">
+                    <span class="group-li-content-img-nursing"></span>
+                    <p class="group-li-content-describe-1">
+                        为响应我院住院无陪护管理制度，减轻家属的负担，我们公司提供住院患者1对多生活护理服务。我们公司的生活护理人员是经过专业培训机构的培训并通过考核，持专业资格上岗证书，且有着丰富的生活护理经验。在护士长的指导下，严格按照科学、严禁的工作流程及工作标准提供相应的服务。具体条件详见须知。
+                    </p>
+                    <div class="group-li-div-1">
+                        <label class="group-li-label-1">服务时间</label>
+                        <span class="group-li-span-1">24小时</span>
+                        <div class="group-li-service-mark">须知</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+
+<!-- 底部弹出菜单 -->
+<div id="bottomMenu" class="mui-popover mui-popover-bottom mui-popover-action">
+    <ul class="mui-bottomMenu" style="padding-left: 1.6rem;">
+        <li class="mui-bottomMenu-li">
+            <div class="meal-list-index-1">1</div>
+            <p class="table-view-details-1">凭无陪护一卡通IC卡办理入科。</p>
+        </li>
+        <li class="mui-bottomMenu-li">
+            <div class="meal-list-index-1">2</div>
+            <p class="table-view-details-1">生活护理组组长会为您介绍无陪护管理须知</p>
+        </li>
+    </ul>
+</div>
+
+
+</body>
+
+<script type="text/javascript">
+
+    //点击须知弹出菜单
+    $(".group-li-service-mark").click(function () {
+        mui("#bottomMenu").popover('toggle');
+    });
+
+
+</script>
+
+</html>

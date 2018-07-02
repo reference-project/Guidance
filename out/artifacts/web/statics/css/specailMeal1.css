@@ -1,0 +1,249 @@
+
+.container {
+	background-color: #eff3f2;
+}
+
+.container-body {
+	/*padding: 0rem 0.6rem;*/
+	/*width: 100%;*/
+	/*height: 24.64rem;*/
+	/*overflow-y: auto;*/
+}
+
+/*星期列表*/
+.week-list {
+	height: 1.7rem;
+	position: relative;
+	background-color: #fa7957;
+	box-shadow: 0.06rem 0.06rem 0.04rem #eec8c0;
+}
+.week-list-li {
+	float: left;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	position: relative;
+	margin-right: 0.85rem;
+}
+.week-list-li:nth-child(1) {
+	margin-left: 0.6rem ;
+}
+.week-list-li:nth-child(7) {
+	margin-right: 0rem ;
+}
+.week-list-name {
+	font-size: 0.6rem;
+	color: 	#DCDCDC;
+}
+.week-list-li-active:after {
+	position: absolute;
+	bottom: 0rem;
+	left: 0.1rem;
+	width: 1rem;
+	content: "";
+	height: 0.12rem;
+	background-color: #ffffff;
+	border-radius: 0.06rem;
+}
+.week-list-li-active .week-list-name{
+	color: #ffffff;
+}
+
+/*早中晚*/
+.meal-time {
+	width: 100%;
+}
+.meal-time-ul {
+	position: absolute;
+	top: 1.8rem;
+	left: 0rem;
+	width: 100%;
+	padding-bottom: 0.4rem;
+	height: 1.84rem;
+	margin-bottom: 1rem;
+	border-bottom: 0.04rem solid #cccccc;
+}
+
+.meal-time-li {
+	position: relative;
+	float: left;
+	width: 5rem;
+	height: 1.84rem;
+	line-height: 1.84rem;
+	color: #999999;
+	text-align: center;
+}
+.time-li-active:after {
+	position: absolute;
+	bottom: 0rem;
+	left: 1.8rem;
+	content: "";
+	width: 1.3rem;
+	height: 0.1rem;
+	background-color: #ff9051;
+}
+.meal-time-ul{
+	margin-bottom: 0.8rem;
+}
+
+/*餐类列表*/
+.meal-list {
+	/*padding: 0.8rem 0.6rem;*/
+}
+/*侧边栏分类*/
+.meal-sidebar {
+	float: left;
+	width: 3rem;
+	margin-left: 0.6rem;
+	padding-top: 0.2rem;
+}
+.meal-sidebar-li {
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: left;
+	width: 100%;
+	color: #999999;
+}
+.meal-sidebar-img {
+	vertical-align: middle;
+	width: 0.76rem;
+	height: 0.76rem;
+}
+.meal-sidebar-span {
+	margin-left: 0.3rem;
+	font-size: 0.5rem;
+	color: #999999;
+}
+.sidebar-li-active .meal-sidebar-span {
+	color: #333333 !important;
+}
+.meal-details {
+	margin-top: 1rem;
+	width: 10rem;
+	height: 18.5rem;
+	overflow-y: auto;
+	float: right;
+	margin-right: 0.6rem;
+}
+.meal-details-li {
+	position: relative;
+	padding-left: 3.7rem;
+	margin-bottom: 0.7rem;
+}
+.details-li-img {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 3.28rem;
+	height: 2.86rem;
+}
+.details-li-title {
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 700;
+	margin-bottom: 0.08rem;
+}
+.details-li-food {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.li-food-label {
+	width: 1.4rem;
+	float: left;
+}
+.li-food-p {
+	width: 4.8rem;
+	height: 0.8rem;
+	float: right;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.showAll{
+	position: absolute;
+	top: 0rem;
+	left: 1.4rem;
+	width: 4.8rem;
+	z-index:10;
+	text-indent: 0.5rem;
+	color:#ffffff;
+	border-radius: 0.2rem;
+	background-color: #0b8fff;
+}
+.li-food-p:hover {
+	overflow-x: auto;
+}
+.details-li-love {
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+}
+.li-love-label {
+	width: 1.4rem;
+	float: left;
+}
+.li-love-p {
+	padding-top: 0.12rem;
+	width: 4.8rem;
+	float: right;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.li-love-p-li {
+	width: 0.36rem;
+	height: 0.44rem;
+	float: left;
+	position: relative;
+	margin-right: 0.16rem;
+}
+.li-love-p-i {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	background: url("./../../statics/img/mui/icon-love.png") no-repeat;
+	width: 0.36rem;
+	height: 0.44rem;
+	background-size: 100% 100%;
+}
+.details-li-price {
+	position: relative;
+	font-size: 0.5rem;
+	color: #999999;
+	width: 6.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.li-price-label {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	width: 1.4rem;
+}
+.li-price-p {
+	position: absolute;
+	top: 0rem;
+	left: 0.4rem;
+	padding-left: 0.4rem;
+	position: relative;
+	width: 4.8rem;
+	color: #f12323;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.li-price-p:before {
+	position: absolute;
+	top: 0.06rem;
+	left: 1.1rem;
+	content: "¥";
+	font-size: 0.5rem;
+	color: #f12323;
+}
+
+

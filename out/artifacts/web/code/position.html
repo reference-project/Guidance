@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>位置布局</title>
+	<script src="./../statics/js/mui.js"></script>
+	<script src="./../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../statics/js/H5Common.js"></script>
+	<link href="./../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../statics/css/public.css" rel="stylesheet"/>
+    <link href="./../statics/css/position.css" rel="stylesheet"/>
+	<link href="./../statics/photoswipe/photowipe.css" rel="stylesheet">
+	<script src="./../statics/photoswipe/photoswipe.js"></script>
+	<script src="./../statics/js/bigImg.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a class="top-title-a" onclick="javascript :history.back(-1);">返回</a>
+			</div>
+			门急诊位置布局
+		</header>
+
+		<div class="container-body">
+			<!--图片列表-->
+			<ul class="mui-group-ul">
+				<li class="mui-group-li mui-group-li-1" onclick="bigImg('./../statics/img/mui/oneFloor.jpg')">
+					<span class="icon-floor icon-floor-1"></span>
+					<p class="mui-group-li-title">一层</p>
+					<p class="mui-group-li-content">天津医院一层</p>
+				</li>
+				<li class="mui-group-li mui-group-li-2" onclick="bigImg('./../statics/img/mui/twoFloor.jpg')">
+					<span class="icon-floor icon-floor-2"></span>
+					<p class="mui-group-li-title">二层</p>
+					<p class="mui-group-li-content">天津医院二层</p>
+				</li>
+				<li class="mui-group-li mui-group-li-2" onclick="bigImg('./../statics/img/mui/thrFloor.jpg')">
+					<span class="icon-floor icon-floor-2"></span>
+					<p class="mui-group-li-title">三层</p>
+					<p class="mui-group-li-content">天津医院三层</p>
+				</li>
+				<li class="mui-group-li mui-group-li-4" onclick="bigImg('./../statics/img/mui/fourFloor.jpg')">
+					<span class="icon-floor icon-floor-4"></span>
+					<p class="mui-group-li-title">四层</p>
+					<p class="mui-group-li-content">天津医院四层</p>
+				</li>
+			</ul>
+		</div>
+		<div class="my-gallery" data-pswp-uid="1" hidden>
+			<figure>
+				<div data-size="670x712">
+					<img  width="100%" id="imgdiv">
+				</div>
+			</figure>
+		</div>
+	</div>
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+    function bigImg(src){
+        $("#imgdiv").attr("src",src);
+        $("#imgdiv").click();
+    }
+    initPhotoSwipeFromDOM('.my-gallery');
+</script>
+
+</html>

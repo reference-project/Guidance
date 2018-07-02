@@ -1,0 +1,66 @@
+
+.customer-phone {
+	width: 100%;
+	height: 7.3rem;
+	background: url("./../../statics/img/mui/service-img-2.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+.customer-tel-ul {
+	padding: 0rem 0.6rem;
+	padding-top: 1.4rem;
+}
+.customer-tel-li {
+	padding: 0rem 0.56rem;
+	margin-bottom: 1.1rem;
+}
+.customer-tel-ul li:last-child {
+	margin-bottom: 0rem;
+}
+.customer-tel-title {
+	width: 100%;
+	margin-bottom: 0.4rem;
+	position: relative;
+}
+.customer-tel-line {
+	position: absolute;
+	top: -0.1rem;
+	left: -0.6rem;
+	width: 0.14rem;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	background-color: #fa7e5a;
+}
+.phone-line1 {
+	background-color: #fa7e5a;
+}
+.phone-line2 {
+	background-color: #66ffcc;
+}
+.customer-tel-label {
+	font-size: 0.6rem;
+	color: #333333;
+	font-weight: 700;
+	line-height: 0.6rem;
+}
+.customer-tel-phone {
+	width: 100%;
+	margin-bottom: 0.44rem;
+}
+.customer-tel-span {
+	font-size: 0.5rem;
+	color: #333333;
+	line-height: 1.2rem;
+}
+.customer-tel-img {
+	margin-left: 1.5rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+}
+
+.customer-towCard-img {
+	margin-left: 1.5rem;
+	margin-top: 0.4rem;
+	width: 5rem;
+	height: 5rem;
+}

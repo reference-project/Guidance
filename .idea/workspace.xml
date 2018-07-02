@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="986ccf11-5d71-42c3-8f74-31222de38ae5" name="Default" comment="1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/favicon/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/favicon/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/favicon/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/favicon/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/avatar_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/avatar_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/avatar_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/avatar_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/avatar_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/bg/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/header-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki-lg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/helsinki.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/logo-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/adventure.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/amsterdam.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/dinner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/night.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/pizza.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/road.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/post/vintage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/images/user-avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/owl-carousel/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/mui.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/Menu/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/Menu/arrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/add_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/arrow-down-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/arrow-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/bg-patrol.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/name-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/names-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/pass-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/password-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/picture-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/picture-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/picture-imgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/position_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/reason-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/region-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/seat-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/telphone-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/telphones-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/third-icon-qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/third-icon-wb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/third-icon-wx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/xj-bg-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/login/zc-bg-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/blood-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-back-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-children-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-find-nurse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-index-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-index-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-index-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-index-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-one-card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-oneToone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-ordinary-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-position.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-right-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-service-project.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-shopping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-special-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-tow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/icon-treat-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/mui-icon-mark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/mui-icon-ring.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/oneToone-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/realMap-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/serviceProject1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/serviceProject2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/serviceProject3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/img/mui/serviceProject4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_ellipse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_rectangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/icon_underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/menu_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/redo_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/images/undo_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/favicon/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/favicon/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/favicon/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/favicon/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/avatar_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/avatar_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/avatar_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/avatar_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/avatar_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/bg/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/header-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki-lg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/helsinki.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/logo-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/adventure.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/amsterdam.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/dinner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/night.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/pizza.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/road.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/post/vintage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/images/user-avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/owl-carousel/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.video.play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/mui.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/Menu/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/Menu/arrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/add_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/arrow-down-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/arrow-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/bg-patrol.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/name-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/names-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/pass-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/password-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/picture-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/picture-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/picture-imgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/position_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/reason-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/region-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/seat-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/telphone-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/telphones-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/third-icon-qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/third-icon-wb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/third-icon-wx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/xj-bg-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/login/zc-bg-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/blood-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/fourFloor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/fourShop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/group-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-arrow-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-back-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-blood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-bootpage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-children-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-count-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-count-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-customer-phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-diet-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-diet-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-diet-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-equipment-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-equipment-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-equipment-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-equipment-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-find-nurse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-i-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-i-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-i-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-i-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-i-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-index-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-index-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-index-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-index-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-index-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-inspection1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-inspection2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-life-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-love.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-map-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-meal-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-message-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-new-hospital.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-nursing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-one-card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-oneToone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-ordinary-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-ordinary1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-ordinary2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-outhospital-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-outhospital.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-position.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-right-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-scroll-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-service-project.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-shopping.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-soup-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-soup-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-soup-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-special-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-telphone-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-telphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-tocope-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-tocopy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-tow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-towCard-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-towCard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-treat-meal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-usercard-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-usercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-wph-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/icon-wph-service.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/inspection1-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/inspection2-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/items1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/items2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-group-li-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-group-li-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-group-li-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-group-li-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-group-li-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-icon-mark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/mui-icon-ring.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/nursing-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/oneFloor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/oneShop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/oneToone-Nurse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/oneToone-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/other-service-img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/other-service-img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/other-service-img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/other-service-img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/realMap-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/service-img6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/serviceProject1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/serviceProject2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/serviceProject3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/serviceProject4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/thrFloor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/twoFloor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/twoShop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/img/mui/wph-service-img9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_ellipse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_rectangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/icon_underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/menu_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/redo_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/images/undo_inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/WphGuidance.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_4_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_4_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_4_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_4_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_3_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_3_beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/ManageIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/User_login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/Items/hospitalProcess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/Items/oneToone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/NoEscort/blood.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/NoEscort/nursing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/cateringService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/escortService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/hospitalProcess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/oneToone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/code/serviceProject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/charts/chart-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/charts/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/forms/advanced.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/forms/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/tables/data-tables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/ui-elements/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/ui-elements/notifications-pnotify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/examples/ui-elements/notifications-toastr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/charts/chart-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/charts/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/forms/advanced.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/forms/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/tables/data-tables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/notifications-pnotify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/notifications-toastr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/template-init.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/javascripts/template-script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/template-init.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/javascripts/template-script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/stylesheets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/stylesheets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/stylesheets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/animate.css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/boostrap_color-picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_color_picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_date_picker/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_date_picker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_max-lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_max_lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_time-picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_time-picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_time_picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/bootstrap_time_picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/chart-js/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/media/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/media/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/data-table/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/input-masked/inputmask.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/input-masked/phone-codes/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/input-masked/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/jquery-validation/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/jquery/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/magnific-popup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/magnific-popup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/nano-scroller/nano-scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/owl-carousel/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/pnotify/pnotify.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/pnotify/pnotify.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/select2/css/select2-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/select2/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/select2/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/toastr/toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/animate.css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap_date_picker/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap_date_picker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap_max-lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap_time-picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/bootstrap_time-picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/chart-js/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/media/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/media/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/data-table/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/input-masked/inputmask.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/input-masked/phone-codes/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/input-masked/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/jquery-validation/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/jquery/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/magnific-popup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/magnific-popup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/nano-scroller/nano-scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/pnotify/pnotify.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/pnotify/pnotify.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/select2/css/select2-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/select2/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/select2/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/toastr/toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/assets/vendor/vendor/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/Ecalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/Menu/sui.nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/cateringService.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/escortService.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/hospitalProcess.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/patrol.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/login/supersized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/mui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/multiple-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/oneToone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/position.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/css/serviceProject.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/jquery.2.0.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/jquery.ui.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/jquery.ui.draggable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/jquery.ui.mouse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/jquery.ui.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/wColorPicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/wColorPicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/wPaint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/inc/wPaint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/include-JS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/include-header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/Ecalendar.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/Menu/sui.nav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/login/supersized-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/login/supersized.3.2.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/mui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/multiple-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/js/public.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/artifacts/web/statics/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guidance-web/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/ManageIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/User_login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/NoEscort/blood.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/NoEscort/lease.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/NoEscort/nursing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/Outhospital/outhospital.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/escortService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/hospitalProcess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/inspection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/items.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Items/oneToone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Meal/SpecialMeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Meal/childrenMeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Meal/ordinaryMeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Meal/treatMeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/Qrcode/TowCodeManage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/bootPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/cateringService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/MoonDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/VIPDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/basicDietList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/caseSendAgency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/cateringService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/childrenDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/configRoom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/customerPhone.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/customerService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/dailyMenus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/diabetesDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/equipmentLease.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/flowerReservation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/fluidityDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/freshVegetable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/guidanceService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/homogenateDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/hospitalNotice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/hospitalProcessDetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/huipeopleDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/inspectionService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/lowfatDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/mealType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/newHospitalProcess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/oneTooneNurse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/operationService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/oralsupplementDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/ordinaryDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/otherService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/outHospital.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/semifluidDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/sendSpectionService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/serviceProject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/softnessDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/specialDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/specialMeal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/specialMeal1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/treatDiet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/treatDietList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/userBloodService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/userCardService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/wphLifeNurse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/wphService.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/diet/wphServiceList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/findNurse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorLayout_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorLayout_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorLayout_4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorShop_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorShop_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/layout/floorShop_4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/nursingLevel/nursingLevelList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/oneCard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/service/serviceList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/serviceProject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/shopPosition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/code/user/userList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/charts/chart-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/charts/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/forms/advanced.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/forms/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/tables/data-tables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/ui-elements/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/ui-elements/notifications-pnotify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/examples/ui-elements/notifications-toastr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/charts/chart-js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/charts/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/forms/advanced.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/forms/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/tables/data-tables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/notifications-pnotify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/examples/ui-elements/notifications-toastr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/template-init.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/javascripts/template-script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/template-init.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/javascripts/template-script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/stylesheets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/stylesheets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/stylesheets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/animate.css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/boostrap_color-picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_color_picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_date_picker/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_date_picker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_max-lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_max_lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_time-picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_time-picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_time_picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/bootstrap_time_picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/chart-js/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/extensions/Responsive/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/media/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/media/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/data-table/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/input-masked/inputmask.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/input-masked/phone-codes/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/input-masked/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/jquery-validation/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/jquery/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/magnific-popup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/magnific-popup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/nano-scroller/nano-scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/owl-carousel/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/pnotify/pnotify.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/pnotify/pnotify.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/select2/css/select2-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/select2/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/select2/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/toastr/toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/animate.css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/css/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/boostrap_color-picker/js/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap_date_picker/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap_date_picker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap_max-lenght/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap_time-picker/css/timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/bootstrap_time-picker/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/chart-js/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/css/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/extensions/Responsive/js/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/media/css/dataTables.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/media/js/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/data-table/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/input-masked/inputmask.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/input-masked/phone-codes/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/input-masked/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/jquery-validation/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/jquery/jquery-1.12.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/magnific-popup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/magnific-popup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/nano-scroller/nano-scroller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/pnotify/pnotify.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/pnotify/pnotify.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/select2/css/select2-bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/select2/css/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/select2/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/toastr/toastr.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/assets/vendor/vendor/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/Ecalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/HospitalProcessDetails.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/Menu/sui.nav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/basicDiet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/bootPage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/cateringService.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/configRoom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/customerPhone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/escortService.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/findNurse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/hospitalNotice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/hospitalProcess.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/patrol.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/login/supersized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/meal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/mealType.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/mui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/multiple-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/newHospitalProcess.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/oneCard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/oneToone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/ordinaryDiet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/position.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/public.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/serviceProject.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/specailMeal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/specailMeal1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/wphLifeNurse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/wphService.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/css/wphServiceList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/jquery.2.0.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/jquery.ui.core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/jquery.ui.draggable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/jquery.ui.mouse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/jquery.ui.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/wColorPicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/wColorPicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/wPaint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/inc/wPaint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/include-JS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/include-header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/include_css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/include_js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/Ecalendar.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/H5Common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/Menu/sui.nav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/PicCarousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/bigImg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/check.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/login/supersized-init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/login/supersized.3.2.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/mui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/multiple-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/js/public.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/photoswipe/photoswipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/photoswipe/photowipe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/statics/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/web/test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/guidance.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guidance-web/code/Items/hospitalProcess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guidance-web/statics/js/PicCarousel.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WphGuidance.iml" afterPath="$PROJECT_DIR$/WphGuidance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guidance-web/statics/js/public.js" afterPath="$PROJECT_DIR$/guidance-web/statics/js/public.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/guidance/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ordinaryMeal.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/ordinaryMeal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ward-area-list</find>
+      <find>ward-area-top</find>
+      <find>searchBtn</find>
+      <find>alert</find>
+      <find>mui-group-ul</find>
+      <find>lookImg</find>
+      <find>mui-group-li</find>
+      <find>customer-phone-title</find>
+      <find>li-title-english</find>
+      <find>single-img-area</find>
+      <find>filterDate</find>
+      <find>search-input</find>
+      <find>search-ul</find>
+      <find>meal-info</find>
+      <find>bigImg</find>
+      <find>InfoFinds</find>
+      <find>pswp__button--close</find>
+      <find>.mui-tab-item</find>
+      <find>mui-popup-backdrop</find>
+      <find>mui-popup</find>
+      <find>mui-modal</find>
+      <find>mui-bar</find>
+      <find>mui-tab-item</find>
+      <find>position: fi</find>
+      <find>json</find>
+      <find>meal-time-ul</find>
+      <find>selectMealByTime</find>
+      <find>titlespan</find>
+      <find>selectMealByWeek</find>
+      <find>showTime</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>length</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/outHospital.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/sendSpectionService.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/userBloodService.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/userCardService.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/wphLifeNurse.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/wphServiceList.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/cateringService.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/shopPosition.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/wphService.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/serviceInfo/wphService.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/basicDiet.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/ordinaryDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/treatDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/HospitalProcessDetails.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/specialDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/diet/configRoom.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/ordinaryDiet.css" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/bootPage.css" />
+        <option value="$PROJECT_DIR$/guidance-web/abc.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/wphLifeNurse.css" />
+        <option value="$PROJECT_DIR$/guidance-web/test.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/diet/hospitalProcessDetails.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/js/message.js" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/VIPDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/huipeopleDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/js/public.js" />
+        <option value="$PROJECT_DIR$/guidance-web/code/findNurse.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/findNurse.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/diet/hospitalNotice.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/semifluidDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/lowfatDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/childrenDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/oralsupplementDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/fluidityDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/softnessDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/diabetesDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/MoonDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/homogenateDiet.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/js/H5Common.js" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/position.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/nursingLevel/nursingLevelList.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/oneCard.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/oneCard.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/position/position.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/diet/newHospitalProcess.html" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/newHospitalProcess.css" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/specailMeal.css" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/photoswipe/photowipe.css" />
+        <option value="$PROJECT_DIR$/guidance-web/statics/css/public.css" />
+        <option value="$PROJECT_DIR$/guidance-web/code/index.html" />
+        <option value="$PROJECT_DIR$/guidance-web/code/Meal/ordinaryMeal.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guidance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guidance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WphGuidance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WphGuidance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-35" />
+    <option name="y" value="27" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WphGuidance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WphGuidance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WphGuidance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WphGuidance" type="462c0819:PsiDirectoryNode" />
+              <item name="guidance-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WphGuidance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WphGuidance" type="462c0819:PsiDirectoryNode" />
+              <item name="guidance-web" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24080883" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\WphGuidance\guidance-web\statics\img\mui" />
+      <recent name="E:\word\WphGuidance\guidance-web\statics\img\mui" />
+      <recent name="E:\word\WphGuidance\guidance-web\statics\fonts" />
+      <recent name="E:\word\WphGuidance\guidance-web" />
+      <recent name="E:\word\WphGuidance\guidance-web\statics\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\word\WphGuidance\guidance-web\code\new" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.web">
+    <configuration name="GuidanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.slk.guidance.GuidanceApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="guidance" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/guidance/index.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="web">
+          <settings>
+            <option name="CONTEXT_PATH" value="/guidance" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WphGuidance_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57598" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.GuidanceApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.web" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="986ccf11-5d71-42c3-8f74-31222de38ae5" name="Default" comment="" />
+      <created>1525925351922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525925351922</updated>
+      <workItem from="1525925355470" duration="30576000" />
+      <workItem from="1525997625217" duration="5546000" />
+      <workItem from="1526003354098" duration="22906000" />
+      <workItem from="1526257700650" duration="25182000" />
+      <workItem from="1526343301743" duration="25000" />
+      <workItem from="1526362009519" duration="509000" />
+      <workItem from="1526527082059" duration="1173000" />
+      <workItem from="1526528728883" duration="457000" />
+      <workItem from="1526544190402" duration="903000" />
+      <workItem from="1526546821052" duration="125000" />
+      <workItem from="1526612948393" duration="15880000" />
+      <workItem from="1526862827784" duration="511000" />
+      <workItem from="1526870345039" duration="8000" />
+      <workItem from="1526870424308" duration="28111000" />
+      <workItem from="1526948586798" duration="18862000" />
+      <workItem from="1526970473570" duration="12000" />
+      <workItem from="1526975164772" duration="19231000" />
+      <workItem from="1527034527926" duration="21971000" />
+      <workItem from="1527058225521" duration="8727000" />
+      <workItem from="1527122079152" duration="31473000" />
+      <workItem from="1527207604225" duration="16469000" />
+      <workItem from="1527227659259" duration="12938000" />
+      <workItem from="1527294058952" duration="22591000" />
+      <workItem from="1527317259142" duration="14392000" />
+      <workItem from="1527467031583" duration="27614000" />
+      <workItem from="1527553295360" duration="15736000" />
+      <workItem from="1527639538817" duration="22153000" />
+      <workItem from="1527725925290" duration="5120000" />
+      <workItem from="1527731840860" duration="21264000" />
+      <workItem from="1527812233052" duration="1816000" />
+      <workItem from="1527814670994" duration="5000" />
+      <workItem from="1527814948984" duration="1585000" />
+      <workItem from="1527820188888" duration="29536000" />
+      <workItem from="1527915925409" duration="15211000" />
+      <workItem from="1528072518474" duration="253000" />
+      <workItem from="1528083731237" duration="8543000" />
+      <workItem from="1528158215466" duration="20338000" />
+      <workItem from="1528244929924" duration="10264000" />
+      <workItem from="1528272345193" duration="3631000" />
+      <workItem from="1528331408122" duration="43046000" />
+      <workItem from="1528689799525" duration="5062000" />
+      <workItem from="1528762436378" duration="599000" />
+      <workItem from="1528765280759" duration="2208000" />
+      <workItem from="1528781813663" duration="5723000" />
+      <workItem from="1528852192187" duration="5627000" />
+      <workItem from="1528934894729" duration="2674000" />
+      <workItem from="1528947728174" duration="2046000" />
+      <workItem from="1528974475335" duration="7000" />
+      <workItem from="1529033917095" duration="5973000" />
+      <workItem from="1529396593561" duration="579000" />
+      <workItem from="1529457237379" duration="3612000" />
+      <workItem from="1529632840893" duration="5540000" />
+      <workItem from="1529652120956" duration="337000" />
+      <workItem from="1529917696227" duration="276000" />
+      <workItem from="1530059050437" duration="118000" />
+      <workItem from="1530070806887" duration="1128000" />
+      <workItem from="1530491673401" duration="4742000" />
+    </task>
+    <task id="LOCAL-00215" summary="1">
+      <created>1528182949950</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1528182949950</updated>
+    </task>
+    <task id="LOCAL-00216" summary="1">
+      <created>1528182971856</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1528182971856</updated>
+    </task>
+    <task id="LOCAL-00217" summary="1">
+      <created>1528185557837</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1528185557837</updated>
+    </task>
+    <task id="LOCAL-00218" summary="1">
+      <created>1528185580502</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1528185580502</updated>
+    </task>
+    <task id="LOCAL-00219" summary="1">
+      <created>1528185674209</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1528185674209</updated>
+    </task>
+    <task id="LOCAL-00220" summary="1">
+      <created>1528185866667</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1528185866667</updated>
+    </task>
+    <task id="LOCAL-00221" summary="1">
+      <created>1528186007026</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1528186007027</updated>
+    </task>
+    <task id="LOCAL-00222" summary="1">
+      <created>1528189759156</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1528189759156</updated>
+    </task>
+    <task id="LOCAL-00223" summary="1">
+      <created>1528249785608</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1528249785609</updated>
+    </task>
+    <task id="LOCAL-00224" summary="1">
+      <created>1528249917455</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1528249917455</updated>
+    </task>
+    <task id="LOCAL-00225" summary="1">
+      <created>1528251221591</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1528251221591</updated>
+    </task>
+    <task id="LOCAL-00226" summary="1">
+      <created>1528251584349</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1528251584349</updated>
+    </task>
+    <task id="LOCAL-00227" summary="1">
+      <created>1528253004016</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1528253004016</updated>
+    </task>
+    <task id="LOCAL-00228" summary="1">
+      <created>1528255257535</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1528255257535</updated>
+    </task>
+    <task id="LOCAL-00229" summary="1">
+      <created>1528331912513</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1528331912513</updated>
+    </task>
+    <task id="LOCAL-00230" summary="1">
+      <created>1528334492511</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1528334492511</updated>
+    </task>
+    <task id="LOCAL-00231" summary="1">
+      <created>1528334526107</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1528334526107</updated>
+    </task>
+    <task id="LOCAL-00232" summary="1">
+      <created>1528335598923</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1528335598923</updated>
+    </task>
+    <task id="LOCAL-00233" summary="1">
+      <created>1528339779013</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1528339779013</updated>
+    </task>
+    <task id="LOCAL-00234" summary="1">
+      <created>1528344324147</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1528344324147</updated>
+    </task>
+    <task id="LOCAL-00235" summary="1">
+      <created>1528344548282</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1528344548282</updated>
+    </task>
+    <task id="LOCAL-00236" summary="1">
+      <created>1528344663252</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1528344663252</updated>
+    </task>
+    <task id="LOCAL-00237" summary="1">
+      <created>1528344757222</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1528344757222</updated>
+    </task>
+    <task id="LOCAL-00238" summary="1">
+      <created>1528350312816</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1528350312816</updated>
+    </task>
+    <task id="LOCAL-00239" summary="1">
+      <created>1528352346497</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1528352346497</updated>
+    </task>
+    <task id="LOCAL-00240" summary="1">
+      <created>1528357463930</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1528357463931</updated>
+    </task>
+    <task id="LOCAL-00241" summary="1">
+      <created>1528360699807</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1528360699807</updated>
+    </task>
+    <task id="LOCAL-00242" summary="1">
+      <created>1528360725106</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1528360725106</updated>
+    </task>
+    <task id="LOCAL-00243" summary="1">
+      <created>1528360791035</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1528360791035</updated>
+    </task>
+    <task id="LOCAL-00244" summary="1">
+      <created>1528360810509</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1528360810509</updated>
+    </task>
+    <task id="LOCAL-00245" summary="1">
+      <created>1528361405052</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1528361405052</updated>
+    </task>
+    <task id="LOCAL-00246" summary="1">
+      <created>1528418269444</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1528418269444</updated>
+    </task>
+    <task id="LOCAL-00247" summary="1">
+      <created>1528420045727</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1528420045727</updated>
+    </task>
+    <task id="LOCAL-00248" summary="1">
+      <created>1528423940816</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1528423940816</updated>
+    </task>
+    <task id="LOCAL-00249" summary="1">
+      <created>1528425924999</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1528425924999</updated>
+    </task>
+    <task id="LOCAL-00250" summary="1">
+      <created>1528426003125</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1528426003125</updated>
+    </task>
+    <task id="LOCAL-00251" summary="1">
+      <created>1528427539050</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1528427539050</updated>
+    </task>
+    <task id="LOCAL-00252" summary="1">
+      <created>1528428370119</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1528428370119</updated>
+    </task>
+    <task id="LOCAL-00253" summary="1">
+      <created>1528788840500</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1528788840500</updated>
+    </task>
+    <task id="LOCAL-00254" summary="1">
+      <created>1528791554681</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1528791554681</updated>
+    </task>
+    <task id="LOCAL-00255" summary="1">
+      <created>1528853190081</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1528853190081</updated>
+    </task>
+    <task id="LOCAL-00256" summary="1">
+      <created>1528853212374</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1528853212374</updated>
+    </task>
+    <task id="LOCAL-00257" summary="1">
+      <created>1528871996050</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1528871996051</updated>
+    </task>
+    <task id="LOCAL-00258" summary="1">
+      <created>1529460962652</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1529460962652</updated>
+    </task>
+    <task id="LOCAL-00259" summary="1">
+      <created>1529637151292</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1529637151293</updated>
+    </task>
+    <task id="LOCAL-00260" summary="1">
+      <created>1530492952695</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1530492952695</updated>
+    </task>
+    <task id="LOCAL-00261" summary="1">
+      <created>1530493871574</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1530493871574</updated>
+    </task>
+    <task id="LOCAL-00262" summary="1">
+      <created>1530494059243</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1530494059243</updated>
+    </task>
+    <task id="LOCAL-00263" summary="1">
+      <created>1530495052814</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1530495052814</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="570944000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17056856" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1820623" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17056856" sideWeight="0.49785176" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0490524" sideWeight="0.49570355" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14827202" sideWeight="0.4538131" order="13" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37458193" sideWeight="0.45703545" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07469342" sideWeight="0.4726101" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17293233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982163" sideWeight="0.49785176" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/abc.html" />
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/bootPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/wphLifeNurse.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/serviceInfo/wphLifeNurse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="78" column="68" lean-forward="false" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/include_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/HospitalProcessDetails.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/VIPDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="59" column="96" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="59" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/huipeopleDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/diet/hospitalProcessDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1161">
+          <caret line="111" column="30" lean-forward="true" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/diet/hospitalNotice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/semifluidDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/lowfatDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/childrenDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/oralsupplementDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/fluidityDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/softnessDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/diabetesDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/MoonDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/homogenateDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/nursingLevel/nursingLevelList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="152" column="33" lean-forward="true" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/ManageIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/oneCard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/oneCard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/newHospitalProcess.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/diet/newHospitalProcess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="10" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="81" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/findNurse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/findNurse.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/position.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/ordinaryDiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/specailMeal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11232">
+          <caret line="416" column="9" lean-forward="false" selection-start-line="416" selection-start-column="2" selection-end-line="416" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Qrcode/TowCodeManage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527640288749" expanded="true" signature="6233:6260" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/service/serviceList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/position/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/serviceInfo/customerService.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="69" column="60" lean-forward="false" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/photoswipe/photoswipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13770">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/img/login/progress.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/js/H5Common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/css/mui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39798">
+          <caret line="1474" column="0" lean-forward="false" selection-start-line="1474" selection-start-column="0" selection-end-line="1474" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/statics/photoswipe/photowipe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6102">
+          <caret line="226" column="0" lean-forward="false" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/serviceInfo/customerPhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guidance-web/code/Meal/ordinaryMeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24080883" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24080883" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>guidance</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

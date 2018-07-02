@@ -1,0 +1,396 @@
+
+/*列表*/
+.mui-group-ul {
+	width: 100%;
+	padding: 0 0.6rem;
+	padding-top: 1.48rem;
+}
+.mui-group-li {
+	position: relative;
+	text-align: center;
+	border-radius: 0.4rem;
+	margin-bottom: 0.6rem;
+	width: 100%;
+	height: 3.74rem;
+	background-size: 100% 100%;
+	margin-bottom: 1.04rem;
+}
+.mui-group-li-1 {
+	position: relative;
+	text-align: center;
+	border-radius: 0.4rem;
+	width: 100%;
+	height: 3.74rem;
+	background-size: 100% 100%;
+	margin-bottom: 2.6rem;
+}
+.mui-group-li-title {
+	position: relative;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: left;
+	padding-left: 0.88rem;
+	width: 100%;
+	margin-bottom: 0.14rem;
+	border-top: 0.02rem solid #fa9a70;
+	border-bottom: 0.04rem solid #fa9a70;
+}
+.group-li-title-icon {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.16rem;
+	background: url(../../statics/img/mui/icon-oneToone.png) no-repeat;
+	width: 0.62rem;
+	height: 0.62rem;
+	background-size: 100% 100%;
+}
+.group-li-title-icon-blood {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.16rem;
+	background: url(../../statics/img/mui/icon-blood.png) no-repeat;
+	width: 0.62rem;
+	height: 0.62rem;
+	background-size: 100% 100%;
+}
+.group-li-title-icon-nursing {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.16rem;
+	background: url(../../statics/img/mui/icon-nursing.png) no-repeat;
+	width: 0.62rem;
+	height: 0.62rem;
+	background-size: 100% 100%;
+}
+.group-li-title-icon-inspection1 {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.16rem;
+	background: url(../img/mui/icon-inspection1.png) no-repeat;
+	width: 0.62rem;
+	height: 0.62rem;
+	background-size: 100% 100%;
+}
+.group-li-title-icon-inspection2 {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.16rem;
+	background: url(../img/mui/icon-inspection2.png) no-repeat;
+	width: 0.62rem;
+	height: 0.62rem;
+	background-size: 100% 100%;
+}
+.icon-outhospital {
+	background: url(../../statics/img/mui/icon-outhospital.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-usercard {
+	background: url(../../statics/img/mui/icon-usercard.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-tocopy {
+	background: url(../../statics/img/mui/icon-tocopy.png) no-repeat;
+	background-size: 100% 100%;
+}
+.group-li-title-title {
+	font-size: 0.52rem;
+	color: #ec5900;
+}
+.title-1 {
+	font-size: 0.52rem;
+	color: #fb5d54;
+}
+.mui-group-li-content {
+	position: relative;
+	height: 4.8rem;
+	width: 100%;
+	border-radius: 0.2rem;
+	background-color: #fcb6aa;
+}
+.group-li-content-img {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../statics/img/mui/oneToone-img.png) no-repeat;
+	width: 4.2rem;
+	height: 3.78rem;
+	background-size: 100% 100%;
+}
+.group-li-content-img-nursing {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../statics/img/mui/nursing-img.png) no-repeat;
+	width: 4.2rem;
+	height: 3.78rem;
+	background-size: 100% 100%;
+}
+.icon-outhospital-img {
+	background: url(../../statics/img/mui/icon-outhospital-img.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-usercard-img {
+	background: url(../../statics/img/mui/icon-usercard-img.png) no-repeat;
+	background-size: 100% 100%;
+}
+.icon-tocopy-img {
+	background: url(./../img/mui/icon-tocope-img.png) no-repeat;
+	background-size: 100% 100%;
+}
+.group-li-content-img-blood {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(./../img/mui/blood-img.png) no-repeat;
+	width: 4.2rem;
+	height: 3.78rem;
+	background-size: 100% 100%;
+}
+.group-li-content-img-inspection1 {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../statics/img/mui/inspection1-img.png) no-repeat;
+	width: 4.2rem;
+	height: 3.78rem;
+	background-size: 100% 100%;
+}
+.group-li-content-img-inspection2 {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.6rem;
+	background: url(../../statics/img/mui/inspection2-img.png) no-repeat;
+	width: 4.2rem;
+	height: 3.78rem;
+	background-size: 100% 100%;
+}
+.group-li-content-describe {
+	position: absolute;
+	top: 1.1rem;
+	left: 4.92rem;
+	display: inline-block;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 0.48rem;
+	font-size: 0.48rem;
+	line-height: 0.68rem;
+	padding-right: 0.2rem;
+	color: #ffffff;
+}
+.mui-group-li-content-outhos {
+	position: relative;
+	height: 4.8rem;
+	width: 100%;
+	padding-left: 4.92rem;;
+	border-radius: 0.2rem;
+	background-color: #fcb6aa;
+}
+.group-li-content-describe-outhos {
+	text-indent: 0.48rem;
+	font-size: 0.4rem;
+	line-height: 0.55rem;
+	padding-right: 0.2rem;
+	padding-top: 0.4rem;
+	color: #ffffff;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.group-li-content-describe-1 {
+	padding-left: 5rem;
+	padding-top: 0.5rem;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 0.4rem;
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	padding-right: 0.2rem;
+	color: #ffffff;
+}
+.group-li-div-1 {
+	position: relative;
+	line-height: 0.4rem;
+	margin-top: 0.2rem;
+}
+.group-li-label-1 {
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	color: #ffffff;
+}
+.group-li-span-1 {
+	font-size: 0.35rem;
+	line-height: 0.5rem;
+	color: #ffffff;
+}
+.group-li-service-time {
+	text-align: left;
+	line-height: 0.58rem;
+}
+.group-li-telphone {
+	position: relative;
+	text-align: left;
+	line-height: 0.58rem;
+}
+.group-li-service-mark {
+	position: absolute;
+	top: 0rem;
+	right: 0.45rem;
+	width: 1.72rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: #ed3b3b;
+	border-radius: 0.2rem;
+	border: 0.04rem solid #ed3b3b;
+}
+.group-li-service-title {
+	font-size: 0.48rem;
+	color: #ffffff;
+ }
+.group-li-service-content {
+	font-size: 0.48rem;
+	color: #ffffff;
+}
+.mui-icon-mark {
+	position: absolute;
+	right: 0.32rem;
+	bottom: 0.16rem;
+	background: url(../../statics/img/mui/mui-icon-mark.png) no-repeat;
+	width: 0.66rem;
+	height: 0.66rem;
+	background-size: 100% 100%;
+}
+.margin-bottom1 {
+	margin-bottom: 2.7rem;
+}
+.explain-book {
+	display: none;
+	position: absolute;
+	top: 6.4rem;
+	right: 0.1rem;
+	width: 13.64rem;
+	border: 0.02rem solid #ffbdb0;
+	border-radius: 0.16rem;
+	background-color: #ffffff;
+}
+.explain-book-details {
+	text-align: left;
+	padding: 0.24rem 0.46rem;
+	width: 100%;
+	line-height: 0.66rem;
+	font-size: 0.44rem;
+	color: #ec5900;
+}
+
+/*器材租界*/
+.equipment-group {
+	width: 100%;
+	padding: 0rem 0.6rem;
+	padding-top: 0.72rem;
+}
+.equipment-group-li {
+	position: relative;
+	border-radius: 0.4rem;
+	width: 100%;
+	height: 4.74rem;
+	margin-bottom: 0.74rem;
+	background-size: 100% 100%;
+	background-color: #f5b0a4;
+}
+.equipment-group li:last-child {
+	margin-bottom: 0rem;
+}
+.equipment-group-li:after {
+	position: absolute;
+	bottom: -0.36rem;
+	left: 0rem;
+	content: "";
+	width: 100%;
+	height: 0.04rem;
+	background-color: #f5b0a4;
+}
+.equipment-group li:last-child:after  {
+	position: absolute;
+	bottom: -0.36rem;
+	left: 0rem;
+	content: "";
+	width: 100%;
+	height: 0rem;
+	background-color: #f5b0a4;
+}
+.equipment-group-content {
+	width: 8.5rem;
+	margin-left: 5.3rem;
+}
+.equipment-name-mark {
+	float: right;
+	font-size: 0.44rem;
+	color: #ff0000;
+	font-weight: 700;
+	margin-right: 1rem;
+}
+.equipment-img-1 {
+	background: url(./../img/mui/icon-equipment-1.png) no-repeat;
+}
+.equipment-img-2 {
+	background: url(./../img/mui/icon-equipment-2.png) no-repeat;
+}
+.equipment-img-3 {
+	background: url(./../img/mui/icon-equipment-3.png) no-repeat;
+}
+.equipment-img-4 {
+	background: url(./../img/mui/icon-equipment-4.png) no-repeat;
+}
+.equipment-img {
+	position: absolute;
+	top: 0.28rem;
+	left: 0.32rem;
+	width: 4.66rem;
+	height: 4.2rem;
+	background-size: 100% 100%;
+}
+.equipment-div {
+	width: 100%;
+	position: relative;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	padding-bottom: 0.15rem;
+}
+.equipment-name1 {
+	font-size: 0.4rem;
+	color: #ffffff;
+	font-weight: 700;
+}
+.margin-left {
+	margin-left: 0.8rem;
+}
+.equipment-name-content1 {
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #ffffff;
+}
+.equipment-name2 {
+	float: left;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #ffffff;
+	font-weight: 700;
+}
+.equipment-name-content2 {
+	float: left;
+	width: 7.2rem;
+	text-align: left;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #ffffff;
+}
+.equipment-name-content3 {
+	float: left;
+	width: 6.3rem;
+	text-align: left;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	color: #ffffff;
+}
+
+

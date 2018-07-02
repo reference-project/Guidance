@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>门急诊位置布局</title>
+
+	<!--<link rel="import" href="./../../statics/include_css.html">-->
+	<!--<link rel="import" href="./../../statics/include_js.html">-->
+
+	<script src="./../../statics/js/jquery-3.2.1.js"></script>
+	<script src="./../../statics/js/public.js"></script>
+	<script src="./../../statics/js/mui.js"></script>
+	<script src="./../../statics/js/H5Common.js"></script>
+	<link href="./../../statics/css/mui.css" rel="stylesheet"/>
+	<link href="./../../statics/css/base.css" rel="stylesheet"/>
+	<link href="./../../statics/css/public.css" rel="stylesheet"/>
+
+    <link href="./../../statics/css/position.css" rel="stylesheet"/>
+	<link href="./../../statics/photoswipe/photowipe.css" rel="stylesheet">
+	<script src="./../../statics/photoswipe/photoswipe.js"></script>
+	<script src="./../../statics/js/bigImg.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="top-bar"></div>
+		<header class="container-top">
+			<div class="mui-pull-left">
+				<span class="mui-icon icon-back"></span>
+				<a class="top-title-a"  onclick="javascript :history.back(-1);">返回</a>
+			</div>
+			门急诊位置布局
+		</header>
+
+		<div class="container-body">
+
+			<!--搜索框-->
+			<div class="position-search">
+				<i class="position-search-icon"></i>
+				<span class="position-search-line"></span>
+				<span class="search-btn" onclick="searchBtn();"></span>
+				<input type="text" id="search-input" class="" placeholder="西药药房">
+				<ul class="search-ul" id="search-ul">
+					<!--<li class="search-li">阿桑飞萨达</li>-->
+				</ul>
+			</div>
+
+			<!--图片列表-->
+			<ul class="mui-group-ul">
+				<li class="mui-group-li mui-group-li-1" onclick="bigImg('./../../statics/img/mui/oneFloor.jpg')">
+					<span class="icon-floor icon-floor-1"></span>
+					<p class="mui-group-li-title">一层</p>
+					<p class="mui-group-li-content">Ground Foor</p>
+					<i class="mui-group-li-icon"></i>
+				</li>
+				<li class="mui-group-li mui-group-li-2" onclick="bigImg('./../../statics/img/mui/twoFloor.jpg')">
+					<span class="icon-floor icon-floor-2"></span>
+					<p class="mui-group-li-title">二层</p>
+					<p class="mui-group-li-content">Second Foor</p>
+					<i class="mui-group-li-icon"></i>
+				</li>
+				<li class="mui-group-li mui-group-li-2" onclick="bigImg('./../../statics/img/mui/thrFloor.jpg')">
+					<span class="icon-floor icon-floor-2"></span>
+					<p class="mui-group-li-title">三层</p>
+					<p class="mui-group-li-content">The Third Foor</p>
+					<i class="mui-group-li-icon"></i>
+				</li>
+				<li class="mui-group-li mui-group-li-4" onclick="bigImg('./../../statics/img/mui/fourFloor.jpg')">
+					<span class="icon-floor icon-floor-4"></span>
+					<p class="mui-group-li-title">四层</p>
+					<p class="mui-group-li-content">Four Foor</p>
+					<i class="mui-group-li-icon"></i>
+				</li>
+			</ul>
+		</div>
+		<div class="my-gallery" data-pswp-uid="1" hidden>
+			<figure>
+				<div data-size="670x712">
+					<img  width="100%" id="imgdiv">
+				</div>
+			</figure>
+		</div>
+	</div>
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</body>
+
+<script type="text/javascript">
+
+	//搜索
+    var data=null;
+    var arrAll = new Array();
+    $(function(){
+        var result=showHtml(url + "/phone/position/selectPositionAll","");
+        if(result!=null&&result.flag){
+            data=result.positionList;
+            for(var p in data){
+                if(data[p].parentid==0){
+                    var position=new Object();
+                    position.id=data[p].id;
+                    position.name=data[p].name;
+                    position.url=data[p].url;
+                    arrAll.push(position);
+                    filterDate(data[p].id,data[p].name);
+                }
+            }
+        }
+    })
+    function filterDate(id,value){
+        for(var p in data){
+            if(data[p].parentid==id){
+                var position=new Object();
+                position.id=data[p].id;
+                position.name=value+data[p].name;
+                position.url=data[p].url;
+                arrAll.push(position);
+                filterDate(data[p].id,value+data[p].name);
+            }
+        }
+    }
+    $("#search-input").bind('input propertychange',function(){
+        record=null;
+        if($(this).val()==null||$(this).val()==""){
+            $("#search-ul").empty();
+            $("#search-ul").css({"height":"0"});
+		}else{
+            findPosition($(this).val());
+
+            SetMenuHeight();
+		}
+
+    })
+    function findPosition(value){
+        var findResult=new Array();
+        for(var p in arrAll){
+          if((arrAll[p].name).indexOf(value)!=-1){
+              if(arrAll[p].name!=value){
+                  findResult.push(arrAll[p]);
+			  }
+		  }
+        }
+        createMenu(findResult);
+    }
+
+    //设置下拉菜单高度
+    function SetMenuHeight() {
+        $("#search-ul").css({"height":"auto"});
+        var height = $("#search-ul").height();
+        if(height > 250){
+            $("#search-ul").css({"height":"250","overflow-y": "auto"});
+        }else if($("#search-input").val().length==0){
+            $("#search-ul").children("li").remove();
+            $("#search-ul").css({"height":"0"});
+        }
+	}
+	//时时创建下拉菜单
+    function createMenu(findResult) {
+        $("#search-ul").empty();
+        //创建下拉菜单li
+		if(findResult.length>0){
+            var html = "";
+            for(var p in findResult){
+                html += '<li class="search-li" onclick="inputChange(' + JSON.stringify(findResult[p]).replace(/"/g, '&quot;') + ')">'+findResult[p].name+'</li>';
+            }
+            $("#search-ul").append(html);
+		}
+	}
+
+    //给input赋值且监听input
+    function inputChange(data){
+        $("#search-input").val(data.name);
+        $("#search-input").trigger('propertychange');
+        record=data;
+	}
+	var record=null;
+	function searchBtn() {
+	    if(record!=null){
+            bigImg(record.url);
+		}
+	}
+
+    function bigImg(src){
+        $("#imgdiv").attr("src",src);
+        $("#imgdiv").click();
+    }
+    initPhotoSwipeFromDOM('.my-gallery');
+
+
+
+</script>
+
+</html>
